@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "translation_id": "fusion_jp_file_select_ko",
+  "source_catalog": "workspace/text/source/file_select_text.json",
+  "source_catalog_sha256": "AD57FD834DBF03DE4AC6E8348EE9081546AE6B7859A1A50306CBF5010C4B7D9A",
+  "scope": {
+    "source_language": "ja+shared",
+    "target_language": "ko",
+    "entry_count": 31
+  },
+  "entries": [
+    {
+      "entry_id": "file_select/ja/000",
+      "ko": "사무스 데이터{br}{br}{br}{br}사운드{br}종료{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "file_select/ja/001",
+      "ko": "시작{br}데이터 복사{br}데이터 삭제{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "file_select/ja/002",
+      "ko": "어디로{br}복사 하시겠습니까{glyph:041F}{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "file_select/ja/003",
+      "ko": "기존 파일은 삭제됩니다.{br}확실합니까{glyph:041F}{br}예{glyph:0400}{glyph:0400}{glyph:0400}{glyph:0400}{glyph:0400}{glyph:0400}{glyph:0400}아니요{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "file_select/ja/004",
+      "ko": "이 데이터를{br}삭제합니까{glyph:041F}{br}예{glyph:0400}{glyph:0400}{glyph:0400}{glyph:0400}아니요{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "file_select/ja/005",
+      "ko": "저장 데이터 A{br}손상. 이전{br}데이터 사용.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "file_select/ja/006",
+      "ko": "저장 데이터 B{br}손상. 이전{br}데이터 사용.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "file_select/ja/007",
+      "ko": "저장 데이터 C{br}손상. 이전{br}데이터 사용.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "file_select/ja/008",
+      "ko": "파일 A 저장{br}데이터 손상.{br}데이터 삭제.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "file_select/ja/009",
+      "ko": "파일 B 저장{br}데이터 손상.{br}데이터 삭제.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "file_select/ja/010",
+      "ko": "파일 C 저장{br}데이터 손상.{br}데이터 삭제.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "file_select/ja/011",
+      "ko": "START 버튼 입력 언어 선택 {glyph:041F}다시 도전 예 (게임으로 복귀) 아니요 (타이틀로 이동) 클리어 타임 아이템 회수율{glyph:041F}{glyph:041F} % 다음 임무에서 다시 만나자. 임무 완료. 모든 저장 데이터를 삭제하시겠습니까{glyph:041F} 정말 모든 저장 데이터를 삭제하시겠습니까{glyph:041F} 계속{br}처음부터{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "file_select/ja/012",
+      "ko": "언어 선택 다시 도전 예{glyph:041F} (게임으로 복귀) 아니요 (타이틀로 이동) 클리어 타임 아이템 회수율 % {glyph:041F}{glyph:041F}다음 임무에서 다시 만나자. 임무 완료. 모든 저장 데이터를 삭제하시겠습니까{glyph:041F} 정말 모든 저장 데이터를 삭제하시겠습니까{glyph:041F} 계속{br}처음부터{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": [
+        "internal_suffix_alias"
+      ]
+    },
+    {
+      "entry_id": "file_select/ja/013",
+      "ko": "다시 도전{glyph:041F} 예 (게임으로 복귀) 아니요 (타이틀로 이동) 클리어 타임 아이템 회수율 %{glyph:041F}{glyph:041F} 다음 임무에서 다시 만나자. 임무 완료. 모든 저장 데이터를 삭제하시겠습니까{glyph:041F} 정말 모든 저장 데이터를 삭제하시겠습니까{glyph:041F} 계속{br}처음부터{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": [
+        "internal_suffix_alias"
+      ]
+    },
+    {
+      "entry_id": "file_select/ja/014",
+      "ko": "예 (게임으로 복귀) 아니요 (타이틀로 이동) 클리어 타임 아이템 회수율 % {glyph:041F}{glyph:041F}다음 임무에서 다시 만나자. 임무 완료. 모든 저장 데이터를 삭제하시겠습니까{glyph:041F} 정말 모든 저장 데이터를 삭제하시겠습니까{glyph:041F} 계속{br}처음부터{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": [
+        "internal_suffix_alias"
+      ]
+    },
+    {
+      "entry_id": "file_select/ja/015",
+      "ko": "아니요 (타이틀로 이동) 클리어 타임 아이템 회수율 % {glyph:041F}{glyph:041F}다음 임무에서 다시 만나자. 임무 완료. 모든 저장 데이터를 삭제하시겠습니까{glyph:041F} 정말 모든 저장 데이터를 삭제하시겠습니까{glyph:041F} 계속{br}처음부터{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": [
+        "internal_suffix_alias"
+      ]
+    },
+    {
+      "entry_id": "file_select/ja/016",
+      "ko": "클리어 타임 아이템 회수율 % 다음 {glyph:041F}{glyph:041F}임무에서 다시 만나자. 임무 완료. 모든 저장 데이터를 삭제하시겠습니까{glyph:041F} 정말 모든 저장 데이터를 삭제하시겠습니까{glyph:041F} 계속{br}처음부터{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": [
+        "internal_suffix_alias"
+      ]
+    },
+    {
+      "entry_id": "file_select/ja/017",
+      "ko": "아이템 회수율 % 다음 임무에서{glyph:041F}{glyph:041F} 다시 만나자. 임무 완료. 모든 저장 데이터를 삭제하시겠습니까 {glyph:041F}정말 모든 저장 데이터를 삭제하시겠습니까{glyph:041F} 계속{br}처음부터{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": [
+        "internal_suffix_alias"
+      ]
+    },
+    {
+      "entry_id": "file_select/ja/018",
+      "ko": "다음 임무에서 다시 만나자. 임무 완료. 모든 저장 데이터를 삭제하시겠습니까{glyph:041F} 정말 모든 저장 데이터를 삭제하시겠습니까{glyph:041F} 계속{br}처음부터{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": [
+        "internal_suffix_alias"
+      ]
+    },
+    {
+      "entry_id": "file_select/ja/019",
+      "ko": "임무 완료. 모든 저장 데이터를 삭제하시겠습니까{glyph:041F} 정말 모든 저장 데이터를 삭제하시겠습니까{glyph:041F} 계속{br}처음부터{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": [
+        "internal_suffix_alias"
+      ]
+    },
+    {
+      "entry_id": "file_select/ja/020",
+      "ko": "모든 저장 데이터를 삭제하시겠습니까{glyph:041F} 정말 모든 저장 데이터를 삭제하시겠습니까{glyph:041F} 계속{br}처음부터{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": [
+        "internal_suffix_alias"
+      ]
+    },
+    {
+      "entry_id": "file_select/ja/021",
+      "ko": "저장 데이터를 삭제하시겠습니까{glyph:041F} 정말 모든 저장 데이터를 삭제하시겠습니까{glyph:041F} 계속{br}처음부터{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": [
+        "internal_suffix_alias"
+      ]
+    },
+    {
+      "entry_id": "file_select/ja/022",
+      "ko": "정말 모든 저장 데이터를 삭제하시겠습니까{glyph:041F} 계속{br}처음부터{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": [
+        "internal_suffix_alias"
+      ]
+    },
+    {
+      "entry_id": "file_select/ja/023",
+      "ko": "저장 데이터를 삭제하시겠습니까{glyph:041F} 계속{br}처음부터{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": [
+        "internal_suffix_alias"
+      ]
+    },
+    {
+      "entry_id": "file_select/ja/024",
+      "ko": "계속{br}처음부터{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": [
+        "internal_suffix_alias"
+      ]
+    },
+    {
+      "entry_id": "file_select/ja/025",
+      "ko": "{glyph:0192}{glyph:014F}{glyph:015E}{glyph:0150}{glyph:01DC}{glyph:024A}{glyph:041F} {glyph:0155}{glyph:0184}{glyph:0185}{glyph:0251}{glyph:0217}메시지 성인용{br}{glyph:15DA}{glyph:0E96}{glyph:0211}{glyph:0258}(한자 있음) {glyph:015A}{glyph:01C4}{glyph:0193}{glyph:0251}{glyph:0217}{br}어린이용 {glyph:024B}{glyph:0257}{glyph:0296}{glyph:0245}(히라가나){end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "file_select/ja/026",
+      "ko": "{glyph:01D9}{glyph:0150}{glyph:0191}{glyph:019A}{glyph:01CD}{glyph:0199} 게임{br}레벨 EASY{br}NORMAL{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "file_select/ja/027",
+      "ko": "{glyph:01D9}{glyph:0150}{glyph:0191}{glyph:019A}{glyph:01CD}{glyph:0199} 게임{br}레벨 EASY{br}NORMAL{br}HARD{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "file_select/ja/028",
+      "ko": "{glyph:021A}{glyph:025A}{glyph:024F}{glyph:0283}{glyph:0249}{glyph:015E}{glyph:0150}{glyph:01CC}{glyph:01C3}{glyph:0150}{glyph:0180}{glyph:024A}{br}{glyph:0D8C}{glyph:0214}{glyph:0243}{glyph:021C}{glyph:024F}{glyph:0212}{glyph:024F}{glyph:021D}{glyph:0141}{glyph:0256}{glyph:025B}{glyph:021C}{glyph:0212}{glyph:0283}{glyph:021D}{glyph:0216}{glyph:041F} 기존 저장{br}데이터는 삭제됩니다. {glyph:024A}{glyph:0D8C}{glyph:0214}{glyph:024F}{glyph:021E}{glyph:025D}계속하시겠습니까{br}{glyph:024A}{glyph:0212} ( 는 삭제되지 않습니다) 예 아니요{glyph:0212}{glyph:0212}{glyph:0214}{end}",
+      "status": "needs_human_review",
+      "notes": "일본어 전용 글리프 원문 해독 필요; 임시 안내문",
+      "flags": []
+    },
+    {
+      "entry_id": "file_select_shared/000",
+      "ko": "--:-- {end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": [
+        "shared_all_languages"
+      ]
+    },
+    {
+      "entry_id": "file_select_shared/001",
+      "ko": "STA{br}SRX{br}TRO{br}BUR{br}FRI{br}WAT{br}DAR{br}{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": [
+        "shared_all_languages"
+      ]
+    }
+  ]
+}

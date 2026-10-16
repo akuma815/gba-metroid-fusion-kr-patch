@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "project": "Metroid Fusion Korean localization",
+  "policy": "official_ko_first_then_project_term",
+  "official_sources": [
+    {
+      "title": "메트로이드 드레드: 사무스 아란의 임무",
+      "url": "https://www.nintendo.com/kr/switch/ayl8a/introduction/index.html",
+      "applies_to": ["사무스 아란", "은하 연방 본부", "기생 의태 생물 X", "SA-X", "파워 슈트"]
+    },
+    {
+      "title": "메트로이드 드레드: 광활한 맵의 탐색",
+      "url": "https://www.nintendo.com/kr/switch/ayl8a/exploration/index.html",
+      "applies_to": ["암 캐논", "미사일", "스피드 부스터"]
+    },
+    {
+      "title": "메트로이드 프라임 리마스터: 사무스의 능력",
+      "url": "https://www.nintendo.com/kr/switch/a3sda/ability/",
+      "applies_to": ["모프볼", "파워 슈트", "암 캐논", "미사일"]
+    },
+    {
+      "title": "메트로이드 퓨전 일본어 공식 설명서",
+      "url": "https://www.nintendo.co.jp/3ds/ambassador/pdf/man_paej.pdf",
+      "applies_to": ["BIOLOGIC 우주생물연구소", "내비게이션 룸", "데이터 룸", "리차지 룸", "세이브 룸", "배리어 슈트", "그래비티 슈트"]
+    }
+  ],
+  "terms": [
+    {"en": "Samus Aran", "ko": "사무스 아란", "status": "official"},
+    {"en": "Samus", "ko": "사무스", "status": "official"},
+    {"en": "Galactic Federation Headquarters", "ko": "은하 연방 본부", "status": "official"},
+    {"en": "Galactic Federation", "ko": "은하 연방", "status": "official"},
+    {"en": "Federation HQ", "ko": "은하 연방 본부", "status": "official"},
+    {"en": "X parasite", "ko": "기생 의태 생물 X", "status": "official"},
+    {"en": "X parasites", "ko": "기생 의태 생물 X", "status": "official"},
+    {"en": "SA-X", "ko": "SA-X", "status": "official"},
+    {"en": "Power Suit", "ko": "파워 슈트", "status": "official"},
+    {"en": "Morph Ball", "ko": "모프볼", "status": "official"},
+    {"en": "arm cannon", "ko": "암 캐논", "status": "official"},
+    {"en": "Speed Booster", "ko": "스피드 부스터", "status": "official"},
+    {"en": "Metroid", "ko": "메트로이드", "status": "official"},
+    {"en": "Chozo", "ko": "조인족", "status": "official"},
+    {"en": "Space Pirates", "ko": "우주 해적", "status": "official"},
+
+    {"en": "Biologic Space Labs", "ko": "BIOLOGIC 우주생물연구소", "status": "official_ja_based"},
+    {"en": "B.S.L. research station", "ko": "BIOLOGIC 우주생물연구소(B.S.L.)", "status": "official_ja_based"},
+    {"en": "B.S.L. station", "ko": "B.S.L. 정거장", "status": "project"},
+    {"en": "Quarantine Bay", "ko": "격리 구역", "status": "project"},
+    {"en": "Main Deck", "ko": "메인 덱", "status": "project"},
+    {"en": "Navigation Room", "ko": "내비게이션 룸", "status": "project"},
+    {"en": "Data Room", "ko": "데이터 룸", "status": "project"},
+    {"en": "Save Room", "ko": "세이브 룸", "status": "project"},
+    {"en": "Recharge Room", "ko": "리차지 룸", "status": "official_ja_based"},
+    {"en": "Operations Deck", "ko": "오퍼레이션 덱", "status": "project"},
+    {"en": "Operations Room", "ko": "오퍼레이션 룸", "status": "project"},
+    {"en": "Restricted Lab", "ko": "제한 구역 연구실", "status": "project"},
+    {"en": "Security Room", "ko": "시큐리티 룸", "status": "project"},
+    {"en": "Auxiliary Power", "ko": "보조 전력", "status": "project"},
+    {"en": "Emergency Evacuation", "ko": "긴급 대피", "status": "project"},
+    {"en": "Adam Malkovich", "ko": "아담 말코비치", "status": "project"},
+    {"en": "Varia Suit", "ko": "배리어 슈트", "status": "official_ja_based"},
+    {"en": "Gravity Suit", "ko": "그래비티 슈트", "status": "official_ja_based"},
+    {"en": "Charge Beam", "ko": "차지 빔", "status": "project"},
+    {"en": "Wide Beam", "ko": "와이드 빔", "status": "project"},
+    {"en": "Plasma Beam", "ko": "플라스마 빔", "status": "project"},
+    {"en": "Wave Beam", "ko": "웨이브 빔", "status": "project"},
+    {"en": "Ice Beam", "ko": "아이스 빔", "status": "project"},
+    {"en": "Super Missile", "ko": "슈퍼 미사일", "status": "project"},
+    {"en": "Ice Missile", "ko": "아이스 미사일", "status": "project"},
+    {"en": "Diffusion Missile", "ko": "디퓨전 미사일", "status": "project"},
+    {"en": "Power Bomb", "ko": "파워 봄", "status": "project"},
+    {"en": "Space Jump", "ko": "스페이스 점프", "status": "project"},
+    {"en": "Screw Attack", "ko": "스크루 어택", "status": "project"},
+    {"en": "Hi-Jump", "ko": "하이 점프", "status": "project"},
+    {"en": "Bomb", "ko": "봄", "status": "project"},
+    {"en": "Nightmare", "ko": "나이트메어", "status": "project"},
+    {"en": "Serris", "ko": "세리스", "status": "project"},
+    {"en": "Ridley", "ko": "리들리", "status": "project"},
+    {"en": "Omega Metroid", "ko": "오메가 메트로이드", "status": "project"},
+    {"en": "Security Robot B.O.X.", "ko": "시큐리티 로봇 B.O.X.", "status": "project"}
+  ]
+}

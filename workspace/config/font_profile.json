@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "profile_id": "fusion_main_text_galmuri11_condensed_bitmap_9x12",
+  "status": "poc_runtime_pass",
+  "font": {
+    "file": "../../Font/Galmuri11-Condensed_9x12.png",
+    "sha256": "07A9617723AA4EDBFB18442DB86419C3F2B48E4F7C6E2E33229305ADCA582AA1",
+    "family": "Galmuri11 Condensed",
+    "source_kind": "user_supplied_bitmap_atlas",
+    "license_name": "SIL Open Font License 1.1"
+  },
+  "raster": {
+    "source_cell_px": [9, 12],
+    "atlas_px": [576, 2100],
+    "atlas_columns": 64,
+    "unicode_range": ["U+AC00", "U+D7A3"],
+    "cell_px": [16, 16],
+    "placement_px": [1, 1],
+    "render_mode": "rgba_exact_bitmap_mask",
+    "foreground_rgba": [99, 207, 99, 255],
+    "body_palette_index": 2,
+    "outline_palette_index": 3,
+    "advance_px": 12
+  },
+  "limitations": {
+    "standalone_modern_jongseong": "not_applicable_precomposed_hangul_only",
+    "approved_scope": "completed_hangul_syllable_visibility_poc_only",
+    "previous_profile": "Galmuri11-Condensed.ttf 13px raster; retained only as historical PoC evidence"
+  },
+  "verification": {
+    "build": "build/poc_Galmuri11-Condensed_bitmap_9x12_w12.gba",
+    "build_sha256": "3FFC78208EEBB0839B7DAC0743DA453D6C26703F076350623D59F7061E056F3E",
+    "emulator": "Mesen 2.2.1",
+    "screenshots": "qa/screenshots/poc_galmuri_bitmap_9x12_w12/",
+    "frames": [7050, 7100],
+    "result": "한글표시검토 readable in intended order"
+  }
+}

@@ -1,0 +1,49 @@
+﻿{
+  "schema_version": 1,
+  "release_stage": "distribution",
+  "release_name": "MetroidFusion_KR_Patch_v1.0_20260824",
+  "release_date": "20260824",
+  "status": "PASS: static build and patch reverse verification; full-game manual runtime QA pending",
+  "contains_original_rom": false,
+  "contains_patched_rom": false,
+  "contains_cheat": false,
+  "source": {
+    "name": "Metroid Fusion (Japan).gba",
+    "size": 8388608,
+    "header_title": "METROID4JPN",
+    "game_code": "AMTJ",
+    "sha256": "11C3ED10FA89D2644EA4D8E97380AA520A268340934B91883602CEA668737E48"
+  },
+  "target": {
+    "size": 8388608,
+    "sha256": "9F81749177E34BA1F62AE29D5DD13D57AB274850C70E230604325C626AAAD2BE"
+  },
+  "translation_csv": {
+    "name": "metroid_fusion_translation_ko_english_controlcodes_fixed.csv",
+    "sha256": "1A688D4874B24713C4921C05404CD85B383B3B6371F11EBA1FCD3A245138F1CB",
+    "rows": 349
+  },
+  "build_report": {
+    "sha256": "BA4A6407777997D9FC02A75208DE5177622C150E56DA490EAD2CC8C37224B48F",
+    "build_id": "fusion_ko_v1_0_final"
+  },
+  "patch": {
+    "name": "MetroidFusion_KR_v1.0_20260824.xdelta",
+    "size": 80493,
+    "sha256": "B25283D241D274E4B93C641C470696B1E3EF3B56243FC2D9BA1692CB0675954B",
+    "reverse_verification": "PASS"
+  },
+  "rom_changes": {
+    "changed_byte_positions": 146617,
+    "declared_byte_positions": 182832,
+    "strings": 349,
+    "pointers": 696,
+    "font_tiles": 2184
+  },
+  "verification": {
+    "static_build": "PASS",
+    "xdelta_reverse_apply": "PASS",
+    "actual_cmd_apply_from_space_and_korean_path": "PASS",
+    "full_game_manual_runtime": "PENDING"
+  }
+}

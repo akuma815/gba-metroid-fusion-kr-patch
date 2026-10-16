@@ -1,0 +1,654 @@
+{
+  "date": "2026-10-16",
+  "project": "메트로이드 퓨전",
+  "files": [
+    {
+      "path": "docs/HANDOFF_2026-08-17.md",
+      "source": "docs/HANDOFF_2026-08-17.md",
+      "bytes": 119316,
+      "sha256": "b5bc3ef196a42f65176714aff091c6e46b98d6c8fdb24857765d4f39d2c550af"
+    },
+    {
+      "path": "docs/QA_INVINCIBLE.md",
+      "source": "docs/QA_INVINCIBLE.md",
+      "bytes": 2423,
+      "sha256": "399d3b05cb2aba3f7fb97ac3b217699e4c2ff3320ada06d8490e2b58b62e323e"
+    },
+    {
+      "path": "workspace/config/additional_text_format.json",
+      "source": "workspace/config/additional_text_format.json",
+      "bytes": 1712,
+      "sha256": "a73bee4090de6c351f723f9f5b702c81db0d17f038cc617b5b4035d961c55ec3"
+    },
+    {
+      "path": "workspace/config/file_select_text_format.json",
+      "source": "workspace/config/file_select_text_format.json",
+      "bytes": 1378,
+      "sha256": "ccace67b1f086711f8661afb42e2923f730ec5fcd34fa8d999867f9189e02049"
+    },
+    {
+      "path": "workspace/config/font_profile.json",
+      "source": "workspace/config/font_profile.json",
+      "bytes": 1426,
+      "sha256": "b9c5d6ee1044503b1ab95f02a887548205cdab4ef685559a4982ef57d06fe89a"
+    },
+    {
+      "path": "workspace/config/hangul_code_map.json",
+      "source": "workspace/config/hangul_code_map.json",
+      "bytes": 71266,
+      "sha256": "2ba1ffcd6b8966fef412f29356b232204f49e182a2307d69c6e768a38fb0c6bf"
+    },
+    {
+      "path": "workspace/config/navigation_text_format.json",
+      "source": "workspace/config/navigation_text_format.json",
+      "bytes": 1480,
+      "sha256": "e64959af6556661e1910a9de891ee873a7154767bb8630112bd2f867e2132f37"
+    },
+    {
+      "path": "workspace/config/small_font_profile.json",
+      "source": "workspace/config/small_font_profile.json",
+      "bytes": 998,
+      "sha256": "3d42918fbde60e71b3f9bf1ef3f1109ae75c9393c6c5ba86344eb0c56dc044fa"
+    },
+    {
+      "path": "workspace/config/source_rom.json",
+      "source": "workspace/config/source_rom.json",
+      "bytes": 393,
+      "sha256": "4b86056ac46adce06b33fcb8aa23cf4cc58d4a68ddcb3ca97e2ec03f1c22d34f"
+    },
+    {
+      "path": "workspace/config/speaker_context.json",
+      "source": "workspace/config/speaker_context.json",
+      "bytes": 1386,
+      "sha256": "e8307ee46a0c6789cd51edadb8524d7efa50e5a08f73acaacdd9699f4c9b6cdd"
+    },
+    {
+      "path": "workspace/scripts/additional_text.py",
+      "source": "workspace/scripts/additional_text.py",
+      "bytes": 17817,
+      "sha256": "affc9b75fa297a13ee6511dc234e87bf809be2d5444c50669a66475670144826"
+    },
+    {
+      "path": "workspace/scripts/build_korean_rom.py",
+      "source": "workspace/scripts/build_korean_rom.py",
+      "bytes": 26787,
+      "sha256": "7b8aa8a035f7b6b07afb60a6d4bf77ab7677a623b78bd8dcb6f46b1e6081ad71"
+    },
+    {
+      "path": "workspace/scripts/draft_translation_csv.py",
+      "source": "workspace/scripts/draft_translation_csv.py",
+      "bytes": 9429,
+      "sha256": "989843c1c2a5ba3a8751209523b4e6f95670274ea3bbe41c6aeeff4e832a04ad"
+    },
+    {
+      "path": "workspace/scripts/extract_status_item_graphics.py",
+      "source": "workspace/scripts/extract_status_item_graphics.py",
+      "bytes": 9332,
+      "sha256": "68a694b8b57dcfb73bd46ef2a381f977ed1d68d7ca9875c464aa8ae76338c219"
+    },
+    {
+      "path": "workspace/scripts/file_select_text.py",
+      "source": "workspace/scripts/file_select_text.py",
+      "bytes": 17172,
+      "sha256": "50b3ef5cb4ec5a085b4f482db86e0cf222a8046540210e0487554f76ddcdd7a9"
+    },
+    {
+      "path": "workspace/scripts/font_codec.py",
+      "source": "workspace/scripts/font_codec.py",
+      "bytes": 3742,
+      "sha256": "cd595c0a678964a37aa814a54907d4d07ca402cbbfc8ec434992b2fdebe708ba"
+    },
+    {
+      "path": "workspace/scripts/font_slot_audit.py",
+      "source": "workspace/scripts/font_slot_audit.py",
+      "bytes": 13424,
+      "sha256": "52dc6cb8460908aa1c7183efc735f3f8e0c1cd28d659af24e9e641141903ee8b"
+    },
+    {
+      "path": "workspace/scripts/game_over_graphics.py",
+      "source": "workspace/scripts/game_over_graphics.py",
+      "bytes": 8013,
+      "sha256": "dcfa8930e39ca8218dfa70ae05fd69cd6cd33981d6c5903f81d499fa4520f2fd"
+    },
+    {
+      "path": "workspace/scripts/hangul_glyph.py",
+      "source": "workspace/scripts/hangul_glyph.py",
+      "bytes": 4410,
+      "sha256": "bc1db82e6956f2ce97ac140a0c8481fcabca6f5b62bc39737937828346434925"
+    },
+    {
+      "path": "workspace/scripts/korean_codec.py",
+      "source": "workspace/scripts/korean_codec.py",
+      "bytes": 8799,
+      "sha256": "5c0c368d259092e57ebc96a1e3645d7367d784a10ea638ace796f85161d7217d"
+    },
+    {
+      "path": "workspace/scripts/korean_runtime_qa.py",
+      "source": "workspace/scripts/korean_runtime_qa.py",
+      "bytes": 4738,
+      "sha256": "8eb1f86ff92065176d0aa7549d658ceb3a2839bd7fab2a45c8760c1e3dc4b2fb"
+    },
+    {
+      "path": "workspace/scripts/make_release_dist.py",
+      "source": "workspace/scripts/make_release_dist.py",
+      "bytes": 14890,
+      "sha256": "e52a3b4a2058e4166b89da5999463c9b45e6e96abdd44e86c3bbb61657fd2add"
+    },
+    {
+      "path": "workspace/scripts/navigation_text.py",
+      "source": "workspace/scripts/navigation_text.py",
+      "bytes": 19251,
+      "sha256": "f384b58b2c3320d1600be5d1500e592d63ce8a1a3859ea3562d608c8709fa45e"
+    },
+    {
+      "path": "workspace/scripts/pause_ui_graphics.py",
+      "source": "workspace/scripts/pause_ui_graphics.py",
+      "bytes": 43854,
+      "sha256": "51ed6ebcfa00450781cd9b1173b7d4e567fe422c3f8f3cd90ea8456a5f5a9df1"
+    },
+    {
+      "path": "workspace/scripts/poc_hangul.py",
+      "source": "workspace/scripts/poc_hangul.py",
+      "bytes": 2883,
+      "sha256": "d4a2f27c3fe0e8c78b280a345f1a2af5de860f4bce57a7b88ac4907f44bcc78c"
+    },
+    {
+      "path": "workspace/scripts/repair_translation_controls.py",
+      "source": "workspace/scripts/repair_translation_controls.py",
+      "bytes": 1486,
+      "sha256": "be7cd3e219666a64d053bdb2a8fbb3fa3e7d35919ea7966e0a6fabe3c062eb1c"
+    },
+    {
+      "path": "workspace/scripts/review_draft_translation.py",
+      "source": "workspace/scripts/review_draft_translation.py",
+      "bytes": 12165,
+      "sha256": "b20b84a48b2c2aed20b3ddf1f01f3101e9bf146acf564565b71679bc873919e5"
+    },
+    {
+      "path": "workspace/scripts/rombuild.py",
+      "source": "workspace/scripts/rombuild.py",
+      "bytes": 2423,
+      "sha256": "c251cc92324ec8c5226cb78bfe847831150a03de7184109f706c510836a7e817"
+    },
+    {
+      "path": "workspace/scripts/run_mesen.py",
+      "source": "workspace/scripts/run_mesen.py",
+      "bytes": 3875,
+      "sha256": "eab4ca654a308135658be4f0a4e2ae3775f23eb13dd41cdc19c70e0f364e46b2"
+    },
+    {
+      "path": "workspace/scripts/run_probe.py",
+      "source": "workspace/scripts/run_probe.py",
+      "bytes": 1718,
+      "sha256": "a01ad7371dc937d4f2dbac56db6f32e410bbf86da9906f8720c684f30a4527b2"
+    },
+    {
+      "path": "workspace/scripts/text_centering.py",
+      "source": "workspace/scripts/text_centering.py",
+      "bytes": 6538,
+      "sha256": "e5d2d9bc57e54af72c8a3934ff0af99b8152ec9206490c979369e73377a8ad6f"
+    },
+    {
+      "path": "workspace/scripts/text_code_usage.py",
+      "source": "workspace/scripts/text_code_usage.py",
+      "bytes": 10953,
+      "sha256": "30a295efeb9a40e40d01be844079e9df063c3ec22a0e71bea566b9a3f47ec80c"
+    },
+    {
+      "path": "workspace/scripts/title_screen_graphics.py",
+      "source": "workspace/scripts/title_screen_graphics.py",
+      "bytes": 17263,
+      "sha256": "4db42afea9b33103c5c5f298aba035bf2fd1121692639043878e456f2202214a"
+    },
+    {
+      "path": "workspace/scripts/translation_corpus.py",
+      "source": "workspace/scripts/translation_corpus.py",
+      "bytes": 11464,
+      "sha256": "4f04451e657de4d686f4374b44d3435deaa52984a4f6c8a76e9ec7017f74dccc"
+    },
+    {
+      "path": "workspace/scripts/translation_csv.py",
+      "source": "workspace/scripts/translation_csv.py",
+      "bytes": 15807,
+      "sha256": "f857afd05530d1e48290d1bda3a1e24024ca44dba7897c70b7e9786ab2f4cdb1"
+    },
+    {
+      "path": "workspace/scripts/ui_graphics_audit.py",
+      "source": "workspace/scripts/ui_graphics_audit.py",
+      "bytes": 14046,
+      "sha256": "c7e7d829f62c079259d251520b42d5414df4cb6c34880d4101920f06e9fd322b"
+    },
+    {
+      "path": "workspace/tests/boot_capture.lua",
+      "source": "workspace/tests/boot_capture.lua",
+      "bytes": 754,
+      "sha256": "d1aa72098fce8ba2de10fe886d2cbc4b4760260e67de2fffdf1a289c2dfa4b92"
+    },
+    {
+      "path": "workspace/tests/calibrate_ko_shaft_jump_from_state.lua",
+      "source": "workspace/tests/calibrate_ko_shaft_jump_from_state.lua",
+      "bytes": 2315,
+      "sha256": "d5b8a9f20385c0eee36b3ae8f5dc1cb42d1ab98a8db289645e4c9406bc7a1dc9"
+    },
+    {
+      "path": "workspace/tests/capture_choicefix_navigation_choice.lua",
+      "source": "workspace/tests/capture_choicefix_navigation_choice.lua",
+      "bytes": 1052,
+      "sha256": "af5a42aef10d53a53f7a40224fffea909780bc9681fa425a9b64bc058c314f21"
+    },
+    {
+      "path": "workspace/tests/capture_choicefix_navigation_on_read.lua",
+      "source": "workspace/tests/capture_choicefix_navigation_on_read.lua",
+      "bytes": 1476,
+      "sha256": "a790280b045c02fa9bc20dc4bdf469d773df90e290b636c92ea21315a1ebcc04"
+    },
+    {
+      "path": "workspace/tests/capture_game_over_from_state.lua",
+      "source": "workspace/tests/capture_game_over_from_state.lua",
+      "bytes": 1769,
+      "sha256": "2c72c9f9c35a90f15dd77e49f7903441d6c292e3bc9d6fd8a74c2e4b5e91bf63"
+    },
+    {
+      "path": "workspace/tests/capture_game_over_mode_from_state.lua",
+      "source": "workspace/tests/capture_game_over_mode_from_state.lua",
+      "bytes": 1055,
+      "sha256": "bf9b77e1b876a65012d70e24ed4dc14c743afa373d86971c4d6a49efcb3e8c74"
+    },
+    {
+      "path": "workspace/tests/capture_ko_clean_boot_choice_sequence.lua",
+      "source": "workspace/tests/capture_ko_clean_boot_choice_sequence.lua",
+      "bytes": 1173,
+      "sha256": "6e9bff6bf51524c66682662d41c4b522302c6d56e27403f4e0405e44aec4a6e7"
+    },
+    {
+      "path": "workspace/tests/capture_ko_pause_choice_from_state.lua",
+      "source": "workspace/tests/capture_ko_pause_choice_from_state.lua",
+      "bytes": 1649,
+      "sha256": "4e1b55408272757c15d9275d9d44d7345ff1708aa42c25c210fa02e4d2755db2"
+    },
+    {
+      "path": "workspace/tests/capture_ko_shaft_state.lua",
+      "source": "workspace/tests/capture_ko_shaft_state.lua",
+      "bytes": 1798,
+      "sha256": "5b27e1cf6f0486cf4b84bc7fbfcd3f6266eff7d9ec8ebf98e279651362ba87f6"
+    },
+    {
+      "path": "workspace/tests/capture_ko_shaft_upper_state.lua",
+      "source": "workspace/tests/capture_ko_shaft_upper_state.lua",
+      "bytes": 3004,
+      "sha256": "c82524fd78311f9423a9671ac5c1021f9de7e3980b6b329c9c3c94280dc5436d"
+    },
+    {
+      "path": "workspace/tests/cheat_invincible.lua",
+      "source": "workspace/tests/cheat_invincible.lua",
+      "bytes": 4058,
+      "sha256": "87b1e8b63b97015e31f6edfb5fb10b7679448706290da07b6501b3c3d78ee552"
+    },
+    {
+      "path": "workspace/tests/cheat_invincible_smoke.lua",
+      "source": "workspace/tests/cheat_invincible_smoke.lua",
+      "bytes": 311,
+      "sha256": "3f68405b2465fca1707f7f1ee1da6937f26c8c12452b7ac0fb748038512ea407"
+    },
+    {
+      "path": "workspace/tests/dump_boot_vram_timeline.lua",
+      "source": "workspace/tests/dump_boot_vram_timeline.lua",
+      "bytes": 1020,
+      "sha256": "598f7a1190416f54acce6c52b2862295a1e3f03d1c7011ea13b1873f5796fe94"
+    },
+    {
+      "path": "workspace/tests/dump_file_select_menu_state.lua",
+      "source": "workspace/tests/dump_file_select_menu_state.lua",
+      "bytes": 1274,
+      "sha256": "f5aca4a54ebc60fbc7ba013be3e8664fc030a52901205538a8776e18c69da160"
+    },
+    {
+      "path": "workspace/tests/dump_navigation_target_on_read.lua",
+      "source": "workspace/tests/dump_navigation_target_on_read.lua",
+      "bytes": 1656,
+      "sha256": "6b858b379072e2972ba162e4f612ef46349f3799248459cef3b65e2b949f3cbd"
+    },
+    {
+      "path": "workspace/tests/dump_pause_map_oam_from_state.lua",
+      "source": "workspace/tests/dump_pause_map_oam_from_state.lua",
+      "bytes": 1288,
+      "sha256": "2244a411f951a7deb8d35f638768e3b9d13dbd6270824853929a6c8385b17aa0"
+    },
+    {
+      "path": "workspace/tests/dump_pause_map_ram.lua",
+      "source": "workspace/tests/dump_pause_map_ram.lua",
+      "bytes": 1291,
+      "sha256": "a7710b4b153ac1ded2007ebc28b0687ee017914ff7fb4e2fedd53ac539765873"
+    },
+    {
+      "path": "workspace/tests/dump_pause_ppu_state.lua",
+      "source": "workspace/tests/dump_pause_ppu_state.lua",
+      "bytes": 1181,
+      "sha256": "da57142bc5a1bba7d0fc00720251e060bdc82e884da7b4127e4b7dfd62e160ee"
+    },
+    {
+      "path": "workspace/tests/dump_pause_ui_vram.lua",
+      "source": "workspace/tests/dump_pause_ui_vram.lua",
+      "bytes": 1793,
+      "sha256": "fb4ddc15ddec615fe04fce4ebdd617f1b4efd04ade14540083980882152f3364"
+    },
+    {
+      "path": "workspace/tests/dump_saved_file_select_obj_vram.lua",
+      "source": "workspace/tests/dump_saved_file_select_obj_vram.lua",
+      "bytes": 932,
+      "sha256": "6e7fd3260974ab22f15c558a2bb6ddc8796d6c5767f1fb06e198c771867ae99c"
+    },
+    {
+      "path": "workspace/tests/dump_title_assets.lua",
+      "source": "workspace/tests/dump_title_assets.lua",
+      "bytes": 2394,
+      "sha256": "8c2707ce02c96989ed9f691e8e2f00af60535cd518e6dbe733cfa8b6734abd05"
+    },
+    {
+      "path": "workspace/tests/explore_ko_shaft_upper.lua",
+      "source": "workspace/tests/explore_ko_shaft_upper.lua",
+      "bytes": 2330,
+      "sha256": "a6fbb5fc883eb09b6388906f01ec182293d48504662cbb99ac60ee0fd2fec02b"
+    },
+    {
+      "path": "workspace/tests/flow_capture.lua",
+      "source": "workspace/tests/flow_capture.lua",
+      "bytes": 1244,
+      "sha256": "9a31ec57b4fa16f4939631ac73448456afb8864f046b6a9548acb699608d519f"
+    },
+    {
+      "path": "workspace/tests/pause_route_capture.lua",
+      "source": "workspace/tests/pause_route_capture.lua",
+      "bytes": 1416,
+      "sha256": "df86aab95aab49e18b191a4fbae6ecdaf83c6397bfe707ae5b92c0203561705e"
+    },
+    {
+      "path": "workspace/tests/pause_route_ko_full.lua",
+      "source": "workspace/tests/pause_route_ko_full.lua",
+      "bytes": 1296,
+      "sha256": "5e3d5b5ac93ba3fdbcc592c02362c8af9ff36c8fef1a23dbfac17a6b3a808bc6"
+    },
+    {
+      "path": "workspace/tests/probe_file_select_text.lua",
+      "source": "workspace/tests/probe_file_select_text.lua",
+      "bytes": 1965,
+      "sha256": "e67c152c3de70dbd7657a13024e346d2807320b88ce25649c4dfc36a4b979a0c"
+    },
+    {
+      "path": "workspace/tests/probe_font_addr.lua",
+      "source": "workspace/tests/probe_font_addr.lua",
+      "bytes": 1635,
+      "sha256": "2afb744f444d5dcf7e4cfcc76da0c61c15c2bf07e823fbee9daad12e4e1e591c"
+    },
+    {
+      "path": "workspace/tests/probe_font_flow.lua",
+      "source": "workspace/tests/probe_font_flow.lua",
+      "bytes": 2006,
+      "sha256": "c50acacd2e190eafd6dcc9e38ea0a73e0fcd152421aa3defacd23472b64d1167"
+    },
+    {
+      "path": "workspace/tests/probe_iwram_callback_address.lua",
+      "source": "workspace/tests/probe_iwram_callback_address.lua",
+      "bytes": 785,
+      "sha256": "b49305fcf437aa726c790c5cd21d86b318b412cdf4858aaa70c4d35d7ab68dcb"
+    },
+    {
+      "path": "workspace/tests/probe_ko_full_build.lua",
+      "source": "workspace/tests/probe_ko_full_build.lua",
+      "bytes": 3171,
+      "sha256": "1da7843c737eb977e231c79e9afa7672da4682d0f52a900221429c87b08e1262"
+    },
+    {
+      "path": "workspace/tests/probe_pause_oam_writer_clean.lua",
+      "source": "workspace/tests/probe_pause_oam_writer_clean.lua",
+      "bytes": 1723,
+      "sha256": "4b16d315b14585332c94ef4c18274a1bd0294be2a097f99958b141dec93235f9"
+    },
+    {
+      "path": "workspace/tests/probe_pause_oam_writer_from_state.lua",
+      "source": "workspace/tests/probe_pause_oam_writer_from_state.lua",
+      "bytes": 1974,
+      "sha256": "6a564f96a0f1d49add060c2d3ed8a030cf610368b054a05f3cceedc776f2a4c9"
+    },
+    {
+      "path": "workspace/tests/probe_pause_rom_reads.lua",
+      "source": "workspace/tests/probe_pause_rom_reads.lua",
+      "bytes": 2909,
+      "sha256": "98938cb25f4cb69536a49167a66da13c4cf3597b9c00a5ea3b61531c091dfdb3"
+    },
+    {
+      "path": "workspace/tests/probe_pause_text.lua",
+      "source": "workspace/tests/probe_pause_text.lua",
+      "bytes": 3339,
+      "sha256": "45ef44a5c8047e07e1af324e474c8ad5139a68d01f7676a0faf141c9ca9346ac"
+    },
+    {
+      "path": "workspace/tests/probe_pause_ui_asset_reads.lua",
+      "source": "workspace/tests/probe_pause_ui_asset_reads.lua",
+      "bytes": 1861,
+      "sha256": "04aca1f584b2373605b7b853db4c1ab9cfce6adb6a078eba68662bb903db0948"
+    },
+    {
+      "path": "workspace/tests/probe_saved_file_select_font_calls.lua",
+      "source": "workspace/tests/probe_saved_file_select_font_calls.lua",
+      "bytes": 1772,
+      "sha256": "6a0dbe056dad96e465d9808c878a99e64b06708913e2dbab02ac0ba34c94f5de"
+    },
+    {
+      "path": "workspace/tests/probe_saved_file_select_reads.lua",
+      "source": "workspace/tests/probe_saved_file_select_reads.lua",
+      "bytes": 1827,
+      "sha256": "bf8df7983b7d9c10c8945554fbffca0be563eba6b044432d6ea2714480ac8c89"
+    },
+    {
+      "path": "workspace/tests/probe_saved_file_select_vram_writers.lua",
+      "source": "workspace/tests/probe_saved_file_select_vram_writers.lua",
+      "bytes": 1337,
+      "sha256": "f97a31801e4346f85e2c092cde457e30bc6564024df3b07de8822609a10e8c60"
+    },
+    {
+      "path": "workspace/tests/probe_title_rom_reads.lua",
+      "source": "workspace/tests/probe_title_rom_reads.lua",
+      "bytes": 1556,
+      "sha256": "bfb88027d56ff9e5d7bfcf911488957eaee730512761155bd1dac99db39ec853"
+    },
+    {
+      "path": "workspace/tests/probe_title_vram_writers.lua",
+      "source": "workspace/tests/probe_title_vram_writers.lua",
+      "bytes": 1075,
+      "sha256": "8b3e2511e2ff7c4de79a53460f23dc21fc1018b670f06140ade11f7256fe8f15"
+    },
+    {
+      "path": "workspace/tests/save_pause_preentry.lua",
+      "source": "workspace/tests/save_pause_preentry.lua",
+      "bytes": 1176,
+      "sha256": "a4a3165dc8096e5cc90ff898894dedbc8591c2a0259fea544db1fe475ea72f64"
+    },
+    {
+      "path": "workspace/tests/test_additional_text.py",
+      "source": "workspace/tests/test_additional_text.py",
+      "bytes": 2063,
+      "sha256": "6dcb9d3e91eac3de1389c333faf3102f3587bee5777fa3ed248acf2fa15a0107"
+    },
+    {
+      "path": "workspace/tests/test_bitmap_font.py",
+      "source": "workspace/tests/test_bitmap_font.py",
+      "bytes": 2051,
+      "sha256": "44140db69145248302edb10bfc8b6f5b493b22aa3fe75ad463c3b679a775cc10"
+    },
+    {
+      "path": "workspace/tests/test_build_korean_rom.py",
+      "source": "workspace/tests/test_build_korean_rom.py",
+      "bytes": 15585,
+      "sha256": "cfd0f39b20435c7ecd695555bb2b7d3929ab98f9f83a7ebc3e0df407c265f2d5"
+    },
+    {
+      "path": "workspace/tests/test_dialogue_editor.py",
+      "source": "workspace/tests/test_dialogue_editor.py",
+      "bytes": 12246,
+      "sha256": "f2185a0387f214b1634df5931f6e5c8638f46d77a2057e7834d616854b89b917"
+    },
+    {
+      "path": "workspace/tests/test_file_select_background_runtime.py",
+      "source": "workspace/tests/test_file_select_background_runtime.py",
+      "bytes": 1942,
+      "sha256": "ca8be7f300d21539dc4a67c13872e6139c14e3f8f4d5682b79a872493cee65cb"
+    },
+    {
+      "path": "workspace/tests/test_file_select_text.py",
+      "source": "workspace/tests/test_file_select_text.py",
+      "bytes": 1753,
+      "sha256": "d55af6d60c699093fa2bcd0f4416e233a04bc993ecd5c2618818fcff6b4d29bd"
+    },
+    {
+      "path": "workspace/tests/test_font_slot_audit.py",
+      "source": "workspace/tests/test_font_slot_audit.py",
+      "bytes": 2793,
+      "sha256": "dd172b66d647b3526f124f0d695fb15ee8a09a862b59fa5ce7a313b465d0e3e8"
+    },
+    {
+      "path": "workspace/tests/test_game_over_graphics.py",
+      "source": "workspace/tests/test_game_over_graphics.py",
+      "bytes": 1358,
+      "sha256": "099741ffd517fc1b933b0e6cce3ad925aab69b41ba6dd1b2bd0e226debb78d20"
+    },
+    {
+      "path": "workspace/tests/test_invincible_qa.py",
+      "source": "workspace/tests/test_invincible_qa.py",
+      "bytes": 2426,
+      "sha256": "c39c666fecb1131da7afd9449913a3117fbdede5a1d6ee1a72354dff84c6395a"
+    },
+    {
+      "path": "workspace/tests/test_korean_codec.py",
+      "source": "workspace/tests/test_korean_codec.py",
+      "bytes": 2336,
+      "sha256": "80a3ca997369af5a1cb2f84601b212782db910886101c8b3daab60fa6ec3f1ec"
+    },
+    {
+      "path": "workspace/tests/test_korean_runtime_qa.py",
+      "source": "workspace/tests/test_korean_runtime_qa.py",
+      "bytes": 1077,
+      "sha256": "357c5b55d80e23924a4e926a9d54a1293b3c00475adb23a8beacf7b8317ae659"
+    },
+    {
+      "path": "workspace/tests/test_navigation_text.py",
+      "source": "workspace/tests/test_navigation_text.py",
+      "bytes": 1966,
+      "sha256": "b9cba27d021ce76c7b242608ea516b3013a17540218dbc07e4e6d4adc4c29f98"
+    },
+    {
+      "path": "workspace/tests/test_pause_ui_runtime.py",
+      "source": "workspace/tests/test_pause_ui_runtime.py",
+      "bytes": 1532,
+      "sha256": "ba76ca9ad6057807e49e6b28e08c9344b269b89bf7f284ae887873eebbd49788"
+    },
+    {
+      "path": "workspace/tests/test_small_font_profile.py",
+      "source": "workspace/tests/test_small_font_profile.py",
+      "bytes": 1910,
+      "sha256": "4fe1d925427d1f5dcdf00b5fb98a467363c9c259bcf41c0e39a55415dd6dffeb"
+    },
+    {
+      "path": "workspace/tests/test_text_centering.py",
+      "source": "workspace/tests/test_text_centering.py",
+      "bytes": 1850,
+      "sha256": "9ce5daab76d350cd50cc71ecb5cf3f85bb3c63b38dbb31f2de4d2146031e1fb3"
+    },
+    {
+      "path": "workspace/tests/test_text_code_usage.py",
+      "source": "workspace/tests/test_text_code_usage.py",
+      "bytes": 1852,
+      "sha256": "44319e1783908deeeb27d62ea1eb1e1ff396b6dad1258dda3f0059ef95870159"
+    },
+    {
+      "path": "workspace/tests/test_title_screen_graphics.py",
+      "source": "workspace/tests/test_title_screen_graphics.py",
+      "bytes": 1812,
+      "sha256": "a2e887e09032d993f2251dcc341f9be25fff1aaed0075e90e934e0fb7ef32b63"
+    },
+    {
+      "path": "workspace/tests/test_translation_corpus.py",
+      "source": "workspace/tests/test_translation_corpus.py",
+      "bytes": 2756,
+      "sha256": "7a1b705998f235567540ef7c1049afc7d023ac5a60e18e44486fa4ccc0fb2a67"
+    },
+    {
+      "path": "workspace/tests/test_translation_csv.py",
+      "source": "workspace/tests/test_translation_csv.py",
+      "bytes": 5363,
+      "sha256": "e69de548730d06a072b16ad419202f91b15355bf91f25a6b9d9ed0f64196ea94"
+    },
+    {
+      "path": "workspace/tests/test_ui_graphics_audit.py",
+      "source": "workspace/tests/test_ui_graphics_audit.py",
+      "bytes": 2449,
+      "sha256": "7d7f283e605924bff22902548ede6a8a6a25a9e69aa476ea842d7464bd6ea9ff"
+    },
+    {
+      "path": "workspace/tests/trace_game_over_rom_reads.lua",
+      "source": "workspace/tests/trace_game_over_rom_reads.lua",
+      "bytes": 1553,
+      "sha256": "b414c0b58fe144f0014212cad97651dd58cf73331c57488b5e05de1977a49745"
+    },
+    {
+      "path": "workspace/tests/trace_pause_hook_vcount.lua",
+      "source": "workspace/tests/trace_pause_hook_vcount.lua",
+      "bytes": 1491,
+      "sha256": "fdfbc97473425b7506258954a6856de98ba1f5985eeeba89c142ef95cec9be79"
+    },
+    {
+      "path": "workspace/tests/trace_pause_oam_sources.lua",
+      "source": "workspace/tests/trace_pause_oam_sources.lua",
+      "bytes": 1660,
+      "sha256": "63dc5495c7b2260d5282971b04fa1fc594faad4b4a3b0d3801475d023bd8163a"
+    },
+    {
+      "path": "workspace/tests/ui_audit_capture.lua",
+      "source": "workspace/tests/ui_audit_capture.lua",
+      "bytes": 866,
+      "sha256": "a311a3dd75ebe6af052a0dd29baee77e8e03cde2756c2d0758c75fee0541a847"
+    },
+    {
+      "path": "workspace/text/context/terminology_ko.json",
+      "source": "workspace/text/context/terminology_ko.json",
+      "bytes": 5126,
+      "sha256": "794c94e114dc7dc0f050478b05e1a15ebcaa49dd131f277549d6a40317f72c5c"
+    },
+    {
+      "path": "workspace/text/translation/additional_ko.json",
+      "source": "workspace/text/translation/additional_ko.json",
+      "bytes": 36660,
+      "sha256": "a056c32024e449d6801050d5e37fb900db89fb694851fbb80d362216653f8fda"
+    },
+    {
+      "path": "workspace/text/translation/file_select_ko.json",
+      "source": "workspace/text/translation/file_select_ko.json",
+      "bytes": 13908,
+      "sha256": "6f7fc9238e44f1cde2b020327561d80360ac3d7d85a835ad0f91cb096f25eddd"
+    },
+    {
+      "path": "workspace/text/translation/navigation_ko.json",
+      "source": "workspace/text/translation/navigation_ko.json",
+      "bytes": 106261,
+      "sha256": "6704b3bc079d9cdd870691f2a430a6a3ddac89dd76f088e0b8faddabcf3acb1f"
+    },
+    {
+      "path": "tools/dialogue_editor/README.md",
+      "source": "tools/dialogue_editor/README.md",
+      "bytes": 1979,
+      "sha256": "0e3516348957d181f67f304f994112ce38dae529ae79d21c61274b5836c17cde"
+    },
+    {
+      "path": "tools/dialogue_editor/metroid_dialogue_editor.py",
+      "source": "tools/dialogue_editor/metroid_dialogue_editor.py",
+      "bytes": 66359,
+      "sha256": "170a219e0c1a9cef9ab0cc9c20f0353c22426b356f8bd6686f08316a7277957a"
+    },
+    {
+      "path": "docs/PROJECT_NOTES.md",
+      "source": "README.md",
+      "bytes": 4034,
+      "sha256": "4cc8ebfc55516e9d4303b5ff348bc79db03ae99f57e2af7acaed91506af9923e"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "profile_id": "fusion_optional_small_text_galmuri7_bitmap_8x8",
+  "status": "validated_source_not_yet_integrated",
+  "font": {
+    "file": "../../Font/Galmuri7_8x8.png",
+    "sha256": "A2BE473E22A62942164C95DB60F3F5AA88A99F76B525994D194E9F5F9DF387EA",
+    "family": "Galmuri7",
+    "source_kind": "user_supplied_bitmap_atlas"
+  },
+  "raster": {
+    "source_cell_px": [8, 8],
+    "atlas_px": [512, 1400],
+    "atlas_columns": 64,
+    "atlas_cells": 11200,
+    "unicode_range": ["U+AC00", "U+D7A3"],
+    "populated_hangul_cells": 11172,
+    "transparent_tail_cells": 28,
+    "rgba_palette": [
+      [0, 0, 0, 0],
+      [0, 0, 0, 255],
+      [99, 207, 99, 255]
+    ]
+  },
+  "policy": {
+    "use_when": "a separately confirmed small-text renderer or baked-graphics replacement requires an 8x8 Korean source",
+    "do_not_replace": "workspace/config/font_profile.json main 9x12 text profile",
+    "integration_status": "pending_consumer_specific_mapping_and_runtime_qa"
+  }
+}

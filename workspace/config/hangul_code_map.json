@@ -1,0 +1,3596 @@
+{
+  "schema_version": 1,
+  "map_id": "fusion_ko_complete_csv_provisional_code_map",
+  "status": "static_audit_pass_runtime_pending",
+  "source": {
+    "translation_corpus": "workspace/analysis/translation_corpus.json",
+    "translation_corpus_sha256": "518341AB18F3FED4AC454DBCB393F1F3562381A77F908C0B725971703E55A139",
+    "font_slot_audit": "workspace/analysis/font_slot_audit.json",
+    "font_slot_audit_sha256": "A813008570BD6B18BB764EC44D456570833DE27F308FFEA312C60F677DBAC0E6",
+    "bitmap_font": "Font/Galmuri11-Condensed_9x12.png",
+    "bitmap_font_sha256": "07A9617723AA4EDBFB18442DB86419C3F2B48E4F7C6E2E33229305ADCA582AA1"
+  },
+  "policy": {
+    "allocation_scenario": "replace_both_japanese_modes_preserve_western",
+    "replaced_languages": [
+      "ja",
+      "ja_hiragana"
+    ],
+    "preserved_languages": [
+      "en",
+      "de",
+      "fr",
+      "it",
+      "es"
+    ],
+    "mapping_order": "Hangul Unicode ascending to candidate code ascending",
+    "advance_px": 12,
+    "curly_quote_aliases": {
+      "U+2018": "0x0047",
+      "U+2019": "0x0047"
+    },
+    "curly_quote_rendering": "both encode as the existing straight ASCII apostrophe glyph; CSV text remains unchanged",
+    "literal_sequence_aliases": {},
+    "literal_sequence_rendering": "encode unsupported typography as existing ASCII glyph sequences; CSV text remains unchanged",
+    "width_table_codes_to_set_12": [
+      "0x0142",
+      "0x0144",
+      "0x0148",
+      "0x014A",
+      "0x014C",
+      "0x014E",
+      "0x0150",
+      "0x0152",
+      "0x0154",
+      "0x0156",
+      "0x0158",
+      "0x015A",
+      "0x015C",
+      "0x015E",
+      "0x0180",
+      "0x0182",
+      "0x0184",
+      "0x0186",
+      "0x0188",
+      "0x018A",
+      "0x018C",
+      "0x0190",
+      "0x0192",
+      "0x0194",
+      "0x0198",
+      "0x019A",
+      "0x019C",
+      "0x01C0",
+      "0x01C4",
+      "0x01CA",
+      "0x01CC",
+      "0x01CE",
+      "0x01D0",
+      "0x01D2",
+      "0x01D6",
+      "0x01D8",
+      "0x01DC",
+      "0x01DE",
+      "0x0206",
+      "0x020C",
+      "0x020E",
+      "0x0212",
+      "0x0214",
+      "0x0216",
+      "0x0218",
+      "0x021A",
+      "0x021C",
+      "0x021E",
+      "0x0240",
+      "0x0242",
+      "0x0244",
+      "0x0246",
+      "0x0248",
+      "0x024A",
+      "0x024C",
+      "0x024E",
+      "0x0250",
+      "0x0252",
+      "0x0254",
+      "0x0256",
+      "0x0258",
+      "0x025A",
+      "0x025C",
+      "0x0280",
+      "0x0282",
+      "0x0284",
+      "0x028A",
+      "0x028C",
+      "0x028E",
+      "0x0296",
+      "0x0298",
+      "0x029A",
+      "0x029C",
+      "0x029E",
+      "0x0408",
+      "0x040E",
+      "0x0410",
+      "0x0412",
+      "0x0414",
+      "0x0416",
+      "0x0418",
+      "0x041A",
+      "0x0442",
+      "0x0444",
+      "0x044C",
+      "0x044E",
+      "0x0450",
+      "0x0454"
+    ],
+    "default_width_patch": {
+      "offset": "0x079908",
+      "expected_hex": "0A20",
+      "new_hex": "0C20"
+    }
+  },
+  "statistics": {
+    "required_hangul": 546,
+    "candidate_cells": 724,
+    "unassigned_candidate_cells": 178,
+    "assigned_codes_with_width_table_entries": 88,
+    "assigned_codes_using_default_width": 458
+  },
+  "mappings": [
+    {
+      "character": "가",
+      "unicode": "U+AC00",
+      "code": "0x0142",
+      "occurrences": 238
+    },
+    {
+      "character": "각",
+      "unicode": "U+AC01",
+      "code": "0x0144",
+      "occurrences": 10
+    },
+    {
+      "character": "간",
+      "unicode": "U+AC04",
+      "code": "0x0148",
+      "occurrences": 20
+    },
+    {
+      "character": "갈",
+      "unicode": "U+AC08",
+      "code": "0x014A",
+      "occurrences": 2
+    },
+    {
+      "character": "감",
+      "unicode": "U+AC10",
+      "code": "0x014C",
+      "occurrences": 38
+    },
+    {
+      "character": "갔",
+      "unicode": "U+AC14",
+      "code": "0x014E",
+      "occurrences": 1
+    },
+    {
+      "character": "강",
+      "unicode": "U+AC15",
+      "code": "0x0150",
+      "occurrences": 8
+    },
+    {
+      "character": "갖",
+      "unicode": "U+AC16",
+      "code": "0x0152",
+      "occurrences": 1
+    },
+    {
+      "character": "같",
+      "unicode": "U+AC19",
+      "code": "0x0154",
+      "occurrences": 2
+    },
+    {
+      "character": "개",
+      "unicode": "U+AC1C",
+      "code": "0x0156",
+      "occurrences": 13
+    },
+    {
+      "character": "거",
+      "unicode": "U+AC70",
+      "code": "0x0158",
+      "occurrences": 48
+    },
+    {
+      "character": "걱",
+      "unicode": "U+AC71",
+      "code": "0x015A",
+      "occurrences": 2
+    },
+    {
+      "character": "건",
+      "unicode": "U+AC74",
+      "code": "0x015C",
+      "occurrences": 8
+    },
+    {
+      "character": "걸",
+      "unicode": "U+AC78",
+      "code": "0x015E",
+      "occurrences": 4
+    },
+    {
+      "character": "것",
+      "unicode": "U+AC83",
+      "code": "0x0180",
+      "occurrences": 76
+    },
+    {
+      "character": "게",
+      "unicode": "U+AC8C",
+      "code": "0x0182",
+      "occurrences": 87
+    },
+    {
+      "character": "겔",
+      "unicode": "U+AC94",
+      "code": "0x0184",
+      "occurrences": 1
+    },
+    {
+      "character": "겠",
+      "unicode": "U+ACA0",
+      "code": "0x0186",
+      "occurrences": 43
+    },
+    {
+      "character": "격",
+      "unicode": "U+ACA9",
+      "code": "0x0188",
+      "occurrences": 23
+    },
+    {
+      "character": "견",
+      "unicode": "U+ACAC",
+      "code": "0x018A",
+      "occurrences": 4
+    },
+    {
+      "character": "결",
+      "unicode": "U+ACB0",
+      "code": "0x018C",
+      "occurrences": 10
+    },
+    {
+      "character": "겼",
+      "unicode": "U+ACBC",
+      "code": "0x0190",
+      "occurrences": 1
+    },
+    {
+      "character": "경",
+      "unicode": "U+ACBD",
+      "code": "0x0192",
+      "occurrences": 23
+    },
+    {
+      "character": "계",
+      "unicode": "U+ACC4",
+      "code": "0x0194",
+      "occurrences": 39
+    },
+    {
+      "character": "고",
+      "unicode": "U+ACE0",
+      "code": "0x0198",
+      "occurrences": 87
+    },
+    {
+      "character": "곧",
+      "unicode": "U+ACE7",
+      "code": "0x019A",
+      "occurrences": 6
+    },
+    {
+      "character": "곱",
+      "unicode": "U+ACF1",
+      "code": "0x019C",
+      "occurrences": 2
+    },
+    {
+      "character": "곳",
+      "unicode": "U+ACF3",
+      "code": "0x01C0",
+      "occurrences": 32
+    },
+    {
+      "character": "공",
+      "unicode": "U+ACF5",
+      "code": "0x01C4",
+      "occurrences": 13
+    },
+    {
+      "character": "과",
+      "unicode": "U+ACFC",
+      "code": "0x01CA",
+      "occurrences": 45
+    },
+    {
+      "character": "관",
+      "unicode": "U+AD00",
+      "code": "0x01CC",
+      "occurrences": 11
+    },
+    {
+      "character": "광",
+      "unicode": "U+AD11",
+      "code": "0x01CE",
+      "occurrences": 1
+    },
+    {
+      "character": "괴",
+      "unicode": "U+AD34",
+      "code": "0x01D0",
+      "occurrences": 14
+    },
+    {
+      "character": "교",
+      "unicode": "U+AD50",
+      "code": "0x01D2",
+      "occurrences": 9
+    },
+    {
+      "character": "구",
+      "unicode": "U+AD6C",
+      "code": "0x01D6",
+      "occurrences": 68
+    },
+    {
+      "character": "국",
+      "unicode": "U+AD6D",
+      "code": "0x01D8",
+      "occurrences": 3
+    },
+    {
+      "character": "군",
+      "unicode": "U+AD70",
+      "code": "0x01DC",
+      "occurrences": 16
+    },
+    {
+      "character": "궁",
+      "unicode": "U+AD81",
+      "code": "0x01DE",
+      "occurrences": 2
+    },
+    {
+      "character": "권",
+      "unicode": "U+AD8C",
+      "code": "0x0206",
+      "occurrences": 1
+    },
+    {
+      "character": "궤",
+      "unicode": "U+ADA4",
+      "code": "0x020C",
+      "occurrences": 9
+    },
+    {
+      "character": "귀",
+      "unicode": "U+ADC0",
+      "code": "0x020E",
+      "occurrences": 18
+    },
+    {
+      "character": "규",
+      "unicode": "U+ADDC",
+      "code": "0x0212",
+      "occurrences": 5
+    },
+    {
+      "character": "그",
+      "unicode": "U+ADF8",
+      "code": "0x0214",
+      "occurrences": 115
+    },
+    {
+      "character": "극",
+      "unicode": "U+ADF9",
+      "code": "0x0216",
+      "occurrences": 8
+    },
+    {
+      "character": "근",
+      "unicode": "U+ADFC",
+      "code": "0x0218",
+      "occurrences": 7
+    },
+    {
+      "character": "금",
+      "unicode": "U+AE08",
+      "code": "0x021A",
+      "occurrences": 34
+    },
+    {
+      "character": "급",
+      "unicode": "U+AE09",
+      "code": "0x021C",
+      "occurrences": 4
+    },
+    {
+      "character": "기",
+      "unicode": "U+AE30",
+      "code": "0x021E",
+      "occurrences": 101
+    },
+    {
+      "character": "길",
+      "unicode": "U+AE38",
+      "code": "0x0240",
+      "occurrences": 7
+    },
+    {
+      "character": "깊",
+      "unicode": "U+AE4A",
+      "code": "0x0242",
+      "occurrences": 2
+    },
+    {
+      "character": "까",
+      "unicode": "U+AE4C",
+      "code": "0x0244",
+      "occurrences": 75
+    },
+    {
+      "character": "깐",
+      "unicode": "U+AE50",
+      "code": "0x0246",
+      "occurrences": 1
+    },
+    {
+      "character": "깨",
+      "unicode": "U+AE68",
+      "code": "0x0248",
+      "occurrences": 2
+    },
+    {
+      "character": "께",
+      "unicode": "U+AED8",
+      "code": "0x024A",
+      "occurrences": 3
+    },
+    {
+      "character": "꼭",
+      "unicode": "U+AF2D",
+      "code": "0x024C",
+      "occurrences": 1
+    },
+    {
+      "character": "꾸",
+      "unicode": "U+AFB8",
+      "code": "0x024E",
+      "occurrences": 2
+    },
+    {
+      "character": "끌",
+      "unicode": "U+B04C",
+      "code": "0x0250",
+      "occurrences": 2
+    },
+    {
+      "character": "끝",
+      "unicode": "U+B05D",
+      "code": "0x0252",
+      "occurrences": 8
+    },
+    {
+      "character": "끼",
+      "unicode": "U+B07C",
+      "code": "0x0254",
+      "occurrences": 1
+    },
+    {
+      "character": "나",
+      "unicode": "U+B098",
+      "code": "0x0256",
+      "occurrences": 69
+    },
+    {
+      "character": "난",
+      "unicode": "U+B09C",
+      "code": "0x0258",
+      "occurrences": 8
+    },
+    {
+      "character": "날",
+      "unicode": "U+B0A0",
+      "code": "0x025A",
+      "occurrences": 2
+    },
+    {
+      "character": "남",
+      "unicode": "U+B0A8",
+      "code": "0x025C",
+      "occurrences": 7
+    },
+    {
+      "character": "났",
+      "unicode": "U+B0AC",
+      "code": "0x0280",
+      "occurrences": 3
+    },
+    {
+      "character": "낮",
+      "unicode": "U+B0AE",
+      "code": "0x0282",
+      "occurrences": 2
+    },
+    {
+      "character": "내",
+      "unicode": "U+B0B4",
+      "code": "0x0284",
+      "occurrences": 55
+    },
+    {
+      "character": "낼",
+      "unicode": "U+B0BC",
+      "code": "0x028A",
+      "occurrences": 1
+    },
+    {
+      "character": "냈",
+      "unicode": "U+B0C8",
+      "code": "0x028C",
+      "occurrences": 3
+    },
+    {
+      "character": "냉",
+      "unicode": "U+B0C9",
+      "code": "0x028E",
+      "occurrences": 6
+    },
+    {
+      "character": "냥",
+      "unicode": "U+B0E5",
+      "code": "0x0296",
+      "occurrences": 2
+    },
+    {
+      "character": "너",
+      "unicode": "U+B108",
+      "code": "0x0298",
+      "occurrences": 9
+    },
+    {
+      "character": "넓",
+      "unicode": "U+B113",
+      "code": "0x029A",
+      "occurrences": 1
+    },
+    {
+      "character": "네",
+      "unicode": "U+B124",
+      "code": "0x029C",
+      "occurrences": 1
+    },
+    {
+      "character": "녔",
+      "unicode": "U+B154",
+      "code": "0x029E",
+      "occurrences": 1
+    },
+    {
+      "character": "노",
+      "unicode": "U+B178",
+      "code": "0x0408",
+      "occurrences": 9
+    },
+    {
+      "character": "녹",
+      "unicode": "U+B179",
+      "code": "0x040E",
+      "occurrences": 9
+    },
+    {
+      "character": "놀",
+      "unicode": "U+B180",
+      "code": "0x0410",
+      "occurrences": 3
+    },
+    {
+      "character": "농",
+      "unicode": "U+B18D",
+      "code": "0x0412",
+      "occurrences": 2
+    },
+    {
+      "character": "높",
+      "unicode": "U+B192",
+      "code": "0x0414",
+      "occurrences": 2
+    },
+    {
+      "character": "놓",
+      "unicode": "U+B193",
+      "code": "0x0416",
+      "occurrences": 2
+    },
+    {
+      "character": "누",
+      "unicode": "U+B204",
+      "code": "0x0418",
+      "occurrences": 11
+    },
+    {
+      "character": "눈",
+      "unicode": "U+B208",
+      "code": "0x041A",
+      "occurrences": 2
+    },
+    {
+      "character": "눌",
+      "unicode": "U+B20C",
+      "code": "0x0442",
+      "occurrences": 2
+    },
+    {
+      "character": "는",
+      "unicode": "U+B294",
+      "code": "0x0444",
+      "occurrences": 199
+    },
+    {
+      "character": "늘",
+      "unicode": "U+B298",
+      "code": "0x044C",
+      "occurrences": 3
+    },
+    {
+      "character": "능",
+      "unicode": "U+B2A5",
+      "code": "0x044E",
+      "occurrences": 61
+    },
+    {
+      "character": "늦",
+      "unicode": "U+B2A6",
+      "code": "0x0450",
+      "occurrences": 1
+    },
+    {
+      "character": "니",
+      "unicode": "U+B2C8",
+      "code": "0x0454",
+      "occurrences": 398
+    },
+    {
+      "character": "닌",
+      "unicode": "U+B2CC",
+      "code": "0x07C0",
+      "occurrences": 2
+    },
+    {
+      "character": "닙",
+      "unicode": "U+B2D9",
+      "code": "0x0802",
+      "occurrences": 1
+    },
+    {
+      "character": "다",
+      "unicode": "U+B2E4",
+      "code": "0x0804",
+      "occurrences": 546
+    },
+    {
+      "character": "닥",
+      "unicode": "U+B2E5",
+      "code": "0x080A",
+      "occurrences": 1
+    },
+    {
+      "character": "단",
+      "unicode": "U+B2E8",
+      "code": "0x080C",
+      "occurrences": 5
+    },
+    {
+      "character": "닫",
+      "unicode": "U+B2EB",
+      "code": "0x0812",
+      "occurrences": 1
+    },
+    {
+      "character": "달",
+      "unicode": "U+B2EC",
+      "code": "0x0814",
+      "occurrences": 5
+    },
+    {
+      "character": "담",
+      "unicode": "U+B2F4",
+      "code": "0x0816",
+      "occurrences": 19
+    },
+    {
+      "character": "당",
+      "unicode": "U+B2F9",
+      "code": "0x081C",
+      "occurrences": 49
+    },
+    {
+      "character": "닿",
+      "unicode": "U+B2FF",
+      "code": "0x081E",
+      "occurrences": 1
+    },
+    {
+      "character": "대",
+      "unicode": "U+B300",
+      "code": "0x0842",
+      "occurrences": 53
+    },
+    {
+      "character": "더",
+      "unicode": "U+B354",
+      "code": "0x0844",
+      "occurrences": 10
+    },
+    {
+      "character": "던",
+      "unicode": "U+B358",
+      "code": "0x084A",
+      "occurrences": 11
+    },
+    {
+      "character": "덜",
+      "unicode": "U+B35C",
+      "code": "0x084C",
+      "occurrences": 1
+    },
+    {
+      "character": "덧",
+      "unicode": "U+B367",
+      "code": "0x084E",
+      "occurrences": 1
+    },
+    {
+      "character": "덮",
+      "unicode": "U+B36E",
+      "code": "0x0852",
+      "occurrences": 2
+    },
+    {
+      "character": "데",
+      "unicode": "U+B370",
+      "code": "0x0854",
+      "occurrences": 159
+    },
+    {
+      "character": "덱",
+      "unicode": "U+B371",
+      "code": "0x0858",
+      "occurrences": 6
+    },
+    {
+      "character": "도",
+      "unicode": "U+B3C4",
+      "code": "0x085A",
+      "occurrences": 124
+    },
+    {
+      "character": "독",
+      "unicode": "U+B3C5",
+      "code": "0x085C",
+      "occurrences": 1
+    },
+    {
+      "character": "돌",
+      "unicode": "U+B3CC",
+      "code": "0x085E",
+      "occurrences": 23
+    },
+    {
+      "character": "동",
+      "unicode": "U+B3D9",
+      "code": "0x0880",
+      "occurrences": 101
+    },
+    {
+      "character": "돼",
+      "unicode": "U+B3FC",
+      "code": "0x0882",
+      "occurrences": 2
+    },
+    {
+      "character": "됐",
+      "unicode": "U+B410",
+      "code": "0x0886",
+      "occurrences": 1
+    },
+    {
+      "character": "되",
+      "unicode": "U+B418",
+      "code": "0x0888",
+      "occurrences": 47
+    },
+    {
+      "character": "된",
+      "unicode": "U+B41C",
+      "code": "0x088A",
+      "occurrences": 13
+    },
+    {
+      "character": "될",
+      "unicode": "U+B420",
+      "code": "0x088E",
+      "occurrences": 6
+    },
+    {
+      "character": "됩",
+      "unicode": "U+B429",
+      "code": "0x0890",
+      "occurrences": 15
+    },
+    {
+      "character": "두",
+      "unicode": "U+B450",
+      "code": "0x0894",
+      "occurrences": 14
+    },
+    {
+      "character": "둘",
+      "unicode": "U+B458",
+      "code": "0x089A",
+      "occurrences": 5
+    },
+    {
+      "character": "둡",
+      "unicode": "U+B461",
+      "code": "0x089C",
+      "occurrences": 1
+    },
+    {
+      "character": "뒤",
+      "unicode": "U+B4A4",
+      "code": "0x08C0",
+      "occurrences": 10
+    },
+    {
+      "character": "드",
+      "unicode": "U+B4DC",
+      "code": "0x08C2",
+      "occurrences": 85
+    },
+    {
+      "character": "득",
+      "unicode": "U+B4DD",
+      "code": "0x08C4",
+      "occurrences": 6
+    },
+    {
+      "character": "든",
+      "unicode": "U+B4E0",
+      "code": "0x08C6",
+      "occurrences": 31
+    },
+    {
+      "character": "듣",
+      "unicode": "U+B4E3",
+      "code": "0x08C8",
+      "occurrences": 1
+    },
+    {
+      "character": "들",
+      "unicode": "U+B4E4",
+      "code": "0x08CA",
+      "occurrences": 42
+    },
+    {
+      "character": "듯",
+      "unicode": "U+B4EF",
+      "code": "0x08CC",
+      "occurrences": 13
+    },
+    {
+      "character": "등",
+      "unicode": "U+B4F1",
+      "code": "0x08CE",
+      "occurrences": 1
+    },
+    {
+      "character": "디",
+      "unicode": "U+B514",
+      "code": "0x08D0",
+      "occurrences": 12
+    },
+    {
+      "character": "딜",
+      "unicode": "U+B51C",
+      "code": "0x08D4",
+      "occurrences": 2
+    },
+    {
+      "character": "따",
+      "unicode": "U+B530",
+      "code": "0x08D6",
+      "occurrences": 5
+    },
+    {
+      "character": "때",
+      "unicode": "U+B54C",
+      "code": "0x08D8",
+      "occurrences": 16
+    },
+    {
+      "character": "떠",
+      "unicode": "U+B5A0",
+      "code": "0x0900",
+      "occurrences": 5
+    },
+    {
+      "character": "떤",
+      "unicode": "U+B5A4",
+      "code": "0x0908",
+      "occurrences": 4
+    },
+    {
+      "character": "떻",
+      "unicode": "U+B5BB",
+      "code": "0x090C",
+      "occurrences": 5
+    },
+    {
+      "character": "또",
+      "unicode": "U+B610",
+      "code": "0x0910",
+      "occurrences": 6
+    },
+    {
+      "character": "뚝",
+      "unicode": "U+B69D",
+      "code": "0x0912",
+      "occurrences": 4
+    },
+    {
+      "character": "라",
+      "unicode": "U+B77C",
+      "code": "0x091A",
+      "occurrences": 37
+    },
+    {
+      "character": "락",
+      "unicode": "U+B77D",
+      "code": "0x091C",
+      "occurrences": 2
+    },
+    {
+      "character": "란",
+      "unicode": "U+B780",
+      "code": "0x091E",
+      "occurrences": 20
+    },
+    {
+      "character": "랄",
+      "unicode": "U+B784",
+      "code": "0x0942",
+      "occurrences": 1
+    },
+    {
+      "character": "람",
+      "unicode": "U+B78C",
+      "code": "0x0944",
+      "occurrences": 1
+    },
+    {
+      "character": "랍",
+      "unicode": "U+B78D",
+      "code": "0x0946",
+      "occurrences": 1
+    },
+    {
+      "character": "랐",
+      "unicode": "U+B790",
+      "code": "0x0948",
+      "occurrences": 3
+    },
+    {
+      "character": "래",
+      "unicode": "U+B798",
+      "code": "0x094A",
+      "occurrences": 10
+    },
+    {
+      "character": "랬",
+      "unicode": "U+B7AC",
+      "code": "0x094C",
+      "occurrences": 1
+    },
+    {
+      "character": "러",
+      "unicode": "U+B7EC",
+      "code": "0x0952",
+      "occurrences": 17
+    },
+    {
+      "character": "런",
+      "unicode": "U+B7F0",
+      "code": "0x0954",
+      "occurrences": 11
+    },
+    {
+      "character": "럼",
+      "unicode": "U+B7FC",
+      "code": "0x095C",
+      "occurrences": 7
+    },
+    {
+      "character": "렀",
+      "unicode": "U+B800",
+      "code": "0x095E",
+      "occurrences": 2
+    },
+    {
+      "character": "렇",
+      "unicode": "U+B807",
+      "code": "0x0986",
+      "occurrences": 6
+    },
+    {
+      "character": "레",
+      "unicode": "U+B808",
+      "code": "0x098C",
+      "occurrences": 41
+    },
+    {
+      "character": "려",
+      "unicode": "U+B824",
+      "code": "0x0992",
+      "occurrences": 17
+    },
+    {
+      "character": "력",
+      "unicode": "U+B825",
+      "code": "0x0994",
+      "occurrences": 49
+    },
+    {
+      "character": "련",
+      "unicode": "U+B828",
+      "code": "0x099A",
+      "occurrences": 2
+    },
+    {
+      "character": "렵",
+      "unicode": "U+B835",
+      "code": "0x099C",
+      "occurrences": 1
+    },
+    {
+      "character": "렸",
+      "unicode": "U+B838",
+      "code": "0x099E",
+      "occurrences": 4
+    },
+    {
+      "character": "령",
+      "unicode": "U+B839",
+      "code": "0x09C4",
+      "occurrences": 9
+    },
+    {
+      "character": "례",
+      "unicode": "U+B840",
+      "code": "0x09C6",
+      "occurrences": 2
+    },
+    {
+      "character": "로",
+      "unicode": "U+B85C",
+      "code": "0x09C8",
+      "occurrences": 300
+    },
+    {
+      "character": "록",
+      "unicode": "U+B85D",
+      "code": "0x09CA",
+      "occurrences": 9
+    },
+    {
+      "character": "론",
+      "unicode": "U+B860",
+      "code": "0x09CC",
+      "occurrences": 6
+    },
+    {
+      "character": "롭",
+      "unicode": "U+B86D",
+      "code": "0x09CE",
+      "occurrences": 1
+    },
+    {
+      "character": "뢰",
+      "unicode": "U+B8B0",
+      "code": "0x09D2",
+      "occurrences": 1
+    },
+    {
+      "character": "료",
+      "unicode": "U+B8CC",
+      "code": "0x09D4",
+      "occurrences": 64
+    },
+    {
+      "character": "루",
+      "unicode": "U+B8E8",
+      "code": "0x09D8",
+      "occurrences": 2
+    },
+    {
+      "character": "룸",
+      "unicode": "U+B8F8",
+      "code": "0x09DE",
+      "occurrences": 104
+    },
+    {
+      "character": "류",
+      "unicode": "U+B958",
+      "code": "0x0A02",
+      "occurrences": 7
+    },
+    {
+      "character": "륙",
+      "unicode": "U+B959",
+      "code": "0x0A04",
+      "occurrences": 2
+    },
+    {
+      "character": "률",
+      "unicode": "U+B960",
+      "code": "0x0A0A",
+      "occurrences": 2
+    },
+    {
+      "character": "륭",
+      "unicode": "U+B96D",
+      "code": "0x0A0C",
+      "occurrences": 4
+    },
+    {
+      "character": "르",
+      "unicode": "U+B974",
+      "code": "0x0A0E",
+      "occurrences": 23
+    },
+    {
+      "character": "른",
+      "unicode": "U+B978",
+      "code": "0x0A10",
+      "occurrences": 13
+    },
+    {
+      "character": "를",
+      "unicode": "U+B97C",
+      "code": "0x0A12",
+      "occurrences": 140
+    },
+    {
+      "character": "름",
+      "unicode": "U+B984",
+      "code": "0x0A14",
+      "occurrences": 3
+    },
+    {
+      "character": "릅",
+      "unicode": "U+B985",
+      "code": "0x0A16",
+      "occurrences": 5
+    },
+    {
+      "character": "리",
+      "unicode": "U+B9AC",
+      "code": "0x0A18",
+      "occurrences": 124
+    },
+    {
+      "character": "린",
+      "unicode": "U+B9B0",
+      "code": "0x0A44",
+      "occurrences": 2
+    },
+    {
+      "character": "릴",
+      "unicode": "U+B9B4",
+      "code": "0x0A4A",
+      "occurrences": 3
+    },
+    {
+      "character": "립",
+      "unicode": "U+B9BD",
+      "code": "0x0A4C",
+      "occurrences": 4
+    },
+    {
+      "character": "링",
+      "unicode": "U+B9C1",
+      "code": "0x0A4E",
+      "occurrences": 3
+    },
+    {
+      "character": "마",
+      "unicode": "U+B9C8",
+      "code": "0x0A52",
+      "occurrences": 33
+    },
+    {
+      "character": "막",
+      "unicode": "U+B9C9",
+      "code": "0x0A58",
+      "occurrences": 9
+    },
+    {
+      "character": "만",
+      "unicode": "U+B9CC",
+      "code": "0x0A5C",
+      "occurrences": 65
+    },
+    {
+      "character": "많",
+      "unicode": "U+B9CE",
+      "code": "0x0A80",
+      "occurrences": 1
+    },
+    {
+      "character": "말",
+      "unicode": "U+B9D0",
+      "code": "0x0A88",
+      "occurrences": 27
+    },
+    {
+      "character": "망",
+      "unicode": "U+B9DD",
+      "code": "0x0A8C",
+      "occurrences": 2
+    },
+    {
+      "character": "맞",
+      "unicode": "U+B9DE",
+      "code": "0x0A8E",
+      "occurrences": 3
+    },
+    {
+      "character": "맡",
+      "unicode": "U+B9E1",
+      "code": "0x0A90",
+      "occurrences": 2
+    },
+    {
+      "character": "매",
+      "unicode": "U+B9E4",
+      "code": "0x0A92",
+      "occurrences": 6
+    },
+    {
+      "character": "머",
+      "unicode": "U+BA38",
+      "code": "0x0A94",
+      "occurrences": 5
+    },
+    {
+      "character": "먹",
+      "unicode": "U+BA39",
+      "code": "0x0A9A",
+      "occurrences": 2
+    },
+    {
+      "character": "먼",
+      "unicode": "U+BA3C",
+      "code": "0x0A9C",
+      "occurrences": 4
+    },
+    {
+      "character": "멈",
+      "unicode": "U+BA48",
+      "code": "0x0A9E",
+      "occurrences": 2
+    },
+    {
+      "character": "멉",
+      "unicode": "U+BA49",
+      "code": "0x0AC8",
+      "occurrences": 1
+    },
+    {
+      "character": "메",
+      "unicode": "U+BA54",
+      "code": "0x0ACC",
+      "occurrences": 36
+    },
+    {
+      "character": "멜",
+      "unicode": "U+BA5C",
+      "code": "0x0ACE",
+      "occurrences": 2
+    },
+    {
+      "character": "며",
+      "unicode": "U+BA70",
+      "code": "0x0AD2",
+      "occurrences": 9
+    },
+    {
+      "character": "면",
+      "unicode": "U+BA74",
+      "code": "0x0AD4",
+      "occurrences": 47
+    },
+    {
+      "character": "멸",
+      "unicode": "U+BA78",
+      "code": "0x0AD8",
+      "occurrences": 5
+    },
+    {
+      "character": "명",
+      "unicode": "U+BA85",
+      "code": "0x0ADA",
+      "occurrences": 35
+    },
+    {
+      "character": "몇",
+      "unicode": "U+BA87",
+      "code": "0x0ADE",
+      "occurrences": 1
+    },
+    {
+      "character": "모",
+      "unicode": "U+BAA8",
+      "code": "0x0B00",
+      "occurrences": 49
+    },
+    {
+      "character": "목",
+      "unicode": "U+BAA9",
+      "code": "0x0B02",
+      "occurrences": 40
+    },
+    {
+      "character": "몰",
+      "unicode": "U+BAB0",
+      "code": "0x0B0C",
+      "occurrences": 2
+    },
+    {
+      "character": "몸",
+      "unicode": "U+BAB8",
+      "code": "0x0B0E",
+      "occurrences": 3
+    },
+    {
+      "character": "못",
+      "unicode": "U+BABB",
+      "code": "0x0B10",
+      "occurrences": 7
+    },
+    {
+      "character": "묘",
+      "unicode": "U+BB18",
+      "code": "0x0B12",
+      "occurrences": 2
+    },
+    {
+      "character": "무",
+      "unicode": "U+BB34",
+      "code": "0x0B16",
+      "occurrences": 92
+    },
+    {
+      "character": "묶",
+      "unicode": "U+BB36",
+      "code": "0x0B18",
+      "occurrences": 1
+    },
+    {
+      "character": "문",
+      "unicode": "U+BB38",
+      "code": "0x0B1A",
+      "occurrences": 17
+    },
+    {
+      "character": "물",
+      "unicode": "U+BB3C",
+      "code": "0x0B1E",
+      "occurrences": 34
+    },
+    {
+      "character": "뭐",
+      "unicode": "U+BB50",
+      "code": "0x0B40",
+      "occurrences": 2
+    },
+    {
+      "character": "뭘",
+      "unicode": "U+BB58",
+      "code": "0x0B42",
+      "occurrences": 2
+    },
+    {
+      "character": "뮬",
+      "unicode": "U+BBAC",
+      "code": "0x0B44",
+      "occurrences": 1
+    },
+    {
+      "character": "므",
+      "unicode": "U+BBC0",
+      "code": "0x0B46",
+      "occurrences": 3
+    },
+    {
+      "character": "미",
+      "unicode": "U+BBF8",
+      "code": "0x0B48",
+      "occurrences": 53
+    },
+    {
+      "character": "민",
+      "unicode": "U+BBFC",
+      "code": "0x0B4A",
+      "occurrences": 1
+    },
+    {
+      "character": "믿",
+      "unicode": "U+BBFF",
+      "code": "0x0B4C",
+      "occurrences": 2
+    },
+    {
+      "character": "밀",
+      "unicode": "U+BC00",
+      "code": "0x0B4E",
+      "occurrences": 2
+    },
+    {
+      "character": "및",
+      "unicode": "U+BC0F",
+      "code": "0x0B52",
+      "occurrences": 5
+    },
+    {
+      "character": "바",
+      "unicode": "U+BC14",
+      "code": "0x0B56",
+      "occurrences": 11
+    },
+    {
+      "character": "박",
+      "unicode": "U+BC15",
+      "code": "0x0B58",
+      "occurrences": 1
+    },
+    {
+      "character": "반",
+      "unicode": "U+BC18",
+      "code": "0x0B5C",
+      "occurrences": 7
+    },
+    {
+      "character": "받",
+      "unicode": "U+BC1B",
+      "code": "0x0B80",
+      "occurrences": 16
+    },
+    {
+      "character": "발",
+      "unicode": "U+BC1C",
+      "code": "0x0B82",
+      "occurrences": 34
+    },
+    {
+      "character": "방",
+      "unicode": "U+BC29",
+      "code": "0x0B84",
+      "occurrences": 46
+    },
+    {
+      "character": "배",
+      "unicode": "U+BC30",
+      "code": "0x0B88",
+      "occurrences": 16
+    },
+    {
+      "character": "백",
+      "unicode": "U+BC31",
+      "code": "0x0B8A",
+      "occurrences": 6
+    },
+    {
+      "character": "버",
+      "unicode": "U+BC84",
+      "code": "0x0B90",
+      "occurrences": 2
+    },
+    {
+      "character": "번",
+      "unicode": "U+BC88",
+      "code": "0x0B92",
+      "occurrences": 8
+    },
+    {
+      "character": "벌",
+      "unicode": "U+BC8C",
+      "code": "0x0B94",
+      "occurrences": 2
+    },
+    {
+      "character": "범",
+      "unicode": "U+BC94",
+      "code": "0x0B96",
+      "occurrences": 3
+    },
+    {
+      "character": "법",
+      "unicode": "U+BC95",
+      "code": "0x0B98",
+      "occurrences": 4
+    },
+    {
+      "character": "벗",
+      "unicode": "U+BC97",
+      "code": "0x0B9A",
+      "occurrences": 2
+    },
+    {
+      "character": "베",
+      "unicode": "U+BCA0",
+      "code": "0x0BC6",
+      "occurrences": 13
+    },
+    {
+      "character": "벨",
+      "unicode": "U+BCA8",
+      "code": "0x0BC8",
+      "occurrences": 22
+    },
+    {
+      "character": "벽",
+      "unicode": "U+BCBD",
+      "code": "0x0BCC",
+      "occurrences": 3
+    },
+    {
+      "character": "변",
+      "unicode": "U+BCC0",
+      "code": "0x0BCE",
+      "occurrences": 4
+    },
+    {
+      "character": "별",
+      "unicode": "U+BCC4",
+      "code": "0x0BD0",
+      "occurrences": 1
+    },
+    {
+      "character": "보",
+      "unicode": "U+BCF4",
+      "code": "0x0BD4",
+      "occurrences": 84
+    },
+    {
+      "character": "복",
+      "unicode": "U+BCF5",
+      "code": "0x0BD6",
+      "occurrences": 35
+    },
+    {
+      "character": "본",
+      "unicode": "U+BCF8",
+      "code": "0x0BD8",
+      "occurrences": 25
+    },
+    {
+      "character": "볼",
+      "unicode": "U+BCFC",
+      "code": "0x0BDA",
+      "occurrences": 5
+    },
+    {
+      "character": "봄",
+      "unicode": "U+BD04",
+      "code": "0x0BDC",
+      "occurrences": 22
+    },
+    {
+      "character": "봇",
+      "unicode": "U+BD07",
+      "code": "0x0C02",
+      "occurrences": 12
+    },
+    {
+      "character": "봉",
+      "unicode": "U+BD09",
+      "code": "0x0C04",
+      "occurrences": 3
+    },
+    {
+      "character": "부",
+      "unicode": "U+BD80",
+      "code": "0x0C06",
+      "occurrences": 46
+    },
+    {
+      "character": "분",
+      "unicode": "U+BD84",
+      "code": "0x0C08",
+      "occurrences": 16
+    },
+    {
+      "character": "불",
+      "unicode": "U+BD88",
+      "code": "0x0C0A",
+      "occurrences": 15
+    },
+    {
+      "character": "붙",
+      "unicode": "U+BD99",
+      "code": "0x0C12",
+      "occurrences": 4
+    },
+    {
+      "character": "브",
+      "unicode": "U+BE0C",
+      "code": "0x0C16",
+      "occurrences": 10
+    },
+    {
+      "character": "비",
+      "unicode": "U+BE44",
+      "code": "0x0C18",
+      "occurrences": 61
+    },
+    {
+      "character": "빈",
+      "unicode": "U+BE48",
+      "code": "0x0C1C",
+      "occurrences": 1
+    },
+    {
+      "character": "빔",
+      "unicode": "U+BE54",
+      "code": "0x0C1E",
+      "occurrences": 23
+    },
+    {
+      "character": "빚",
+      "unicode": "U+BE5A",
+      "code": "0x0C40",
+      "occurrences": 1
+    },
+    {
+      "character": "빠",
+      "unicode": "U+BE60",
+      "code": "0x0C42",
+      "occurrences": 4
+    },
+    {
+      "character": "빨",
+      "unicode": "U+BE68",
+      "code": "0x0C46",
+      "occurrences": 2
+    },
+    {
+      "character": "뻔",
+      "unicode": "U+BED4",
+      "code": "0x0C48",
+      "occurrences": 1
+    },
+    {
+      "character": "뻗",
+      "unicode": "U+BED7",
+      "code": "0x0C4A",
+      "occurrences": 1
+    },
+    {
+      "character": "뿌",
+      "unicode": "U+BFCC",
+      "code": "0x0C50",
+      "occurrences": 6
+    },
+    {
+      "character": "뿐",
+      "unicode": "U+BFD0",
+      "code": "0x0C52",
+      "occurrences": 3
+    },
+    {
+      "character": "사",
+      "unicode": "U+C0AC",
+      "code": "0x0C54",
+      "occurrences": 139
+    },
+    {
+      "character": "삭",
+      "unicode": "U+C0AD",
+      "code": "0x0C56",
+      "occurrences": 32
+    },
+    {
+      "character": "살",
+      "unicode": "U+C0B4",
+      "code": "0x0C58",
+      "occurrences": 9
+    },
+    {
+      "character": "삼",
+      "unicode": "U+C0BC",
+      "code": "0x0C5A",
+      "occurrences": 1
+    },
+    {
+      "character": "상",
+      "unicode": "U+C0C1",
+      "code": "0x0C5C",
+      "occurrences": 60
+    },
+    {
+      "character": "새",
+      "unicode": "U+C0C8",
+      "code": "0x0C80",
+      "occurrences": 3
+    },
+    {
+      "character": "색",
+      "unicode": "U+C0C9",
+      "code": "0x0C82",
+      "occurrences": 31
+    },
+    {
+      "character": "생",
+      "unicode": "U+C0DD",
+      "code": "0x0C84",
+      "occurrences": 60
+    },
+    {
+      "character": "샤",
+      "unicode": "U+C0E4",
+      "code": "0x0C86",
+      "occurrences": 1
+    },
+    {
+      "character": "서",
+      "unicode": "U+C11C",
+      "code": "0x0C8A",
+      "occurrences": 106
+    },
+    {
+      "character": "석",
+      "unicode": "U+C11D",
+      "code": "0x0C8C",
+      "occurrences": 1
+    },
+    {
+      "character": "선",
+      "unicode": "U+C120",
+      "code": "0x0C90",
+      "occurrences": 37
+    },
+    {
+      "character": "설",
+      "unicode": "U+C124",
+      "code": "0x0C92",
+      "occurrences": 12
+    },
+    {
+      "character": "섭",
+      "unicode": "U+C12D",
+      "code": "0x0C98",
+      "occurrences": 1
+    },
+    {
+      "character": "성",
+      "unicode": "U+C131",
+      "code": "0x0C9A",
+      "occurrences": 50
+    },
+    {
+      "character": "세",
+      "unicode": "U+C138",
+      "code": "0x0C9C",
+      "occurrences": 16
+    },
+    {
+      "character": "섹",
+      "unicode": "U+C139",
+      "code": "0x0C9E",
+      "occurrences": 69
+    },
+    {
+      "character": "센",
+      "unicode": "U+C13C",
+      "code": "0x0CC2",
+      "occurrences": 2
+    },
+    {
+      "character": "셈",
+      "unicode": "U+C148",
+      "code": "0x0CC4",
+      "occurrences": 1
+    },
+    {
+      "character": "션",
+      "unicode": "U+C158",
+      "code": "0x0CCE",
+      "occurrences": 62
+    },
+    {
+      "character": "소",
+      "unicode": "U+C18C",
+      "code": "0x0CD0",
+      "occurrences": 13
+    },
+    {
+      "character": "속",
+      "unicode": "U+C18D",
+      "code": "0x0CD2",
+      "occurrences": 33
+    },
+    {
+      "character": "손",
+      "unicode": "U+C190",
+      "code": "0x0CD4",
+      "occurrences": 11
+    },
+    {
+      "character": "송",
+      "unicode": "U+C1A1",
+      "code": "0x0CD6",
+      "occurrences": 5
+    },
+    {
+      "character": "쇄",
+      "unicode": "U+C1C4",
+      "code": "0x0CD8",
+      "occurrences": 4
+    },
+    {
+      "character": "수",
+      "unicode": "U+C218",
+      "code": "0x0CDC",
+      "occurrences": 112
+    },
+    {
+      "character": "숙",
+      "unicode": "U+C219",
+      "code": "0x0D00",
+      "occurrences": 8
+    },
+    {
+      "character": "순",
+      "unicode": "U+C21C",
+      "code": "0x0D04",
+      "occurrences": 2
+    },
+    {
+      "character": "술",
+      "unicode": "U+C220",
+      "code": "0x0D06",
+      "occurrences": 4
+    },
+    {
+      "character": "숨",
+      "unicode": "U+C228",
+      "code": "0x0D08",
+      "occurrences": 3
+    },
+    {
+      "character": "쉬",
+      "unicode": "U+C26C",
+      "code": "0x0D10",
+      "occurrences": 1
+    },
+    {
+      "character": "쉽",
+      "unicode": "U+C27D",
+      "code": "0x0D12",
+      "occurrences": 2
+    },
+    {
+      "character": "슈",
+      "unicode": "U+C288",
+      "code": "0x0D14",
+      "occurrences": 29
+    },
+    {
+      "character": "슐",
+      "unicode": "U+C290",
+      "code": "0x0D16",
+      "occurrences": 3
+    },
+    {
+      "character": "스",
+      "unicode": "U+C2A4",
+      "code": "0x0D18",
+      "occurrences": 102
+    },
+    {
+      "character": "슨",
+      "unicode": "U+C2A8",
+      "code": "0x0D1C",
+      "occurrences": 2
+    },
+    {
+      "character": "슬",
+      "unicode": "U+C2AC",
+      "code": "0x0D40",
+      "occurrences": 2
+    },
+    {
+      "character": "습",
+      "unicode": "U+C2B5",
+      "code": "0x0D42",
+      "occurrences": 206
+    },
+    {
+      "character": "승",
+      "unicode": "U+C2B9",
+      "code": "0x0D44",
+      "occurrences": 7
+    },
+    {
+      "character": "시",
+      "unicode": "U+C2DC",
+      "code": "0x0D48",
+      "occurrences": 276
+    },
+    {
+      "character": "식",
+      "unicode": "U+C2DD",
+      "code": "0x0D4A",
+      "occurrences": 29
+    },
+    {
+      "character": "신",
+      "unicode": "U+C2E0",
+      "code": "0x0D4C",
+      "occurrences": 74
+    },
+    {
+      "character": "실",
+      "unicode": "U+C2E4",
+      "code": "0x0D52",
+      "occurrences": 24
+    },
+    {
+      "character": "싫",
+      "unicode": "U+C2EB",
+      "code": "0x0D56",
+      "occurrences": 1
+    },
+    {
+      "character": "심",
+      "unicode": "U+C2EC",
+      "code": "0x0D58",
+      "occurrences": 9
+    },
+    {
+      "character": "십",
+      "unicode": "U+C2ED",
+      "code": "0x0D5A",
+      "occurrences": 137
+    },
+    {
+      "character": "씬",
+      "unicode": "U+C52C",
+      "code": "0x0D5C",
+      "occurrences": 3
+    },
+    {
+      "character": "씹",
+      "unicode": "U+C539",
+      "code": "0x0D80",
+      "occurrences": 2
+    },
+    {
+      "character": "아",
+      "unicode": "U+C544",
+      "code": "0x0D8A",
+      "occurrences": 125
+    },
+    {
+      "character": "악",
+      "unicode": "U+C545",
+      "code": "0x0D8C",
+      "occurrences": 5
+    },
+    {
+      "character": "안",
+      "unicode": "U+C548",
+      "code": "0x0D8E",
+      "occurrences": 51
+    },
+    {
+      "character": "않",
+      "unicode": "U+C54A",
+      "code": "0x0D96",
+      "occurrences": 24
+    },
+    {
+      "character": "알",
+      "unicode": "U+C54C",
+      "code": "0x0D98",
+      "occurrences": 25
+    },
+    {
+      "character": "았",
+      "unicode": "U+C558",
+      "code": "0x0D9A",
+      "occurrences": 12
+    },
+    {
+      "character": "앙",
+      "unicode": "U+C559",
+      "code": "0x0DC0",
+      "occurrences": 4
+    },
+    {
+      "character": "앞",
+      "unicode": "U+C55E",
+      "code": "0x0DC2",
+      "occurrences": 7
+    },
+    {
+      "character": "애",
+      "unicode": "U+C560",
+      "code": "0x0DC4",
+      "occurrences": 3
+    },
+    {
+      "character": "액",
+      "unicode": "U+C561",
+      "code": "0x0DC6",
+      "occurrences": 6
+    },
+    {
+      "character": "야",
+      "unicode": "U+C57C",
+      "code": "0x0DC8",
+      "occurrences": 29
+    },
+    {
+      "character": "약",
+      "unicode": "U+C57D",
+      "code": "0x0DCA",
+      "occurrences": 8
+    },
+    {
+      "character": "양",
+      "unicode": "U+C591",
+      "code": "0x0DCC",
+      "occurrences": 1
+    },
+    {
+      "character": "어",
+      "unicode": "U+C5B4",
+      "code": "0x0DCE",
+      "occurrences": 111
+    },
+    {
+      "character": "억",
+      "unicode": "U+C5B5",
+      "code": "0x0DD0",
+      "occurrences": 2
+    },
+    {
+      "character": "언",
+      "unicode": "U+C5B8",
+      "code": "0x0DD2",
+      "occurrences": 9
+    },
+    {
+      "character": "얻",
+      "unicode": "U+C5BB",
+      "code": "0x0DD4",
+      "occurrences": 2
+    },
+    {
+      "character": "얼",
+      "unicode": "U+C5BC",
+      "code": "0x0DD8",
+      "occurrences": 9
+    },
+    {
+      "character": "업",
+      "unicode": "U+C5C5",
+      "code": "0x0DDA",
+      "occurrences": 10
+    },
+    {
+      "character": "없",
+      "unicode": "U+C5C6",
+      "code": "0x0DDC",
+      "occurrences": 41
+    },
+    {
+      "character": "엇",
+      "unicode": "U+C5C7",
+      "code": "0x0E02",
+      "occurrences": 3
+    },
+    {
+      "character": "었",
+      "unicode": "U+C5C8",
+      "code": "0x0E06",
+      "occurrences": 44
+    },
+    {
+      "character": "에",
+      "unicode": "U+C5D0",
+      "code": "0x0E0A",
+      "occurrences": 209
+    },
+    {
+      "character": "엘",
+      "unicode": "U+C5D8",
+      "code": "0x0E0C",
+      "occurrences": 10
+    },
+    {
+      "character": "여",
+      "unicode": "U+C5EC",
+      "code": "0x0E16",
+      "occurrences": 19
+    },
+    {
+      "character": "역",
+      "unicode": "U+C5ED",
+      "code": "0x0E1A",
+      "occurrences": 37
+    },
+    {
+      "character": "연",
+      "unicode": "U+C5F0",
+      "code": "0x0E1C",
+      "occurrences": 50
+    },
+    {
+      "character": "열",
+      "unicode": "U+C5F4",
+      "code": "0x0E1E",
+      "occurrences": 5
+    },
+    {
+      "character": "염",
+      "unicode": "U+C5FC",
+      "code": "0x0E40",
+      "occurrences": 13
+    },
+    {
+      "character": "였",
+      "unicode": "U+C600",
+      "code": "0x0E42",
+      "occurrences": 9
+    },
+    {
+      "character": "영",
+      "unicode": "U+C601",
+      "code": "0x0E44",
+      "occurrences": 5
+    },
+    {
+      "character": "옆",
+      "unicode": "U+C606",
+      "code": "0x0E48",
+      "occurrences": 1
+    },
+    {
+      "character": "예",
+      "unicode": "U+C608",
+      "code": "0x0E4A",
+      "occurrences": 22
+    },
+    {
+      "character": "오",
+      "unicode": "U+C624",
+      "code": "0x0E4C",
+      "occurrences": 170
+    },
+    {
+      "character": "온",
+      "unicode": "U+C628",
+      "code": "0x0E4E",
+      "occurrences": 10
+    },
+    {
+      "character": "올",
+      "unicode": "U+C62C",
+      "code": "0x0E50",
+      "occurrences": 4
+    },
+    {
+      "character": "옵",
+      "unicode": "U+C635",
+      "code": "0x0E54",
+      "occurrences": 1
+    },
+    {
+      "character": "와",
+      "unicode": "U+C640",
+      "code": "0x0E56",
+      "occurrences": 19
+    },
+    {
+      "character": "완",
+      "unicode": "U+C644",
+      "code": "0x0E5A",
+      "occurrences": 68
+    },
+    {
+      "character": "왔",
+      "unicode": "U+C654",
+      "code": "0x0E5C",
+      "occurrences": 3
+    },
+    {
+      "character": "외",
+      "unicode": "U+C678",
+      "code": "0x0E5E",
+      "occurrences": 3
+    },
+    {
+      "character": "요",
+      "unicode": "U+C694",
+      "code": "0x0E82",
+      "occurrences": 46
+    },
+    {
+      "character": "용",
+      "unicode": "U+C6A9",
+      "code": "0x0E84",
+      "occurrences": 35
+    },
+    {
+      "character": "우",
+      "unicode": "U+C6B0",
+      "code": "0x0E86",
+      "occurrences": 33
+    },
+    {
+      "character": "운",
+      "unicode": "U+C6B4",
+      "code": "0x0E88",
+      "occurrences": 56
+    },
+    {
+      "character": "울",
+      "unicode": "U+C6B8",
+      "code": "0x0E8A",
+      "occurrences": 2
+    },
+    {
+      "character": "움",
+      "unicode": "U+C6C0",
+      "code": "0x0E8C",
+      "occurrences": 12
+    },
+    {
+      "character": "워",
+      "unicode": "U+C6CC",
+      "code": "0x0E8E",
+      "occurrences": 15
+    },
+    {
+      "character": "원",
+      "unicode": "U+C6D0",
+      "code": "0x0E90",
+      "occurrences": 34
+    },
+    {
+      "character": "웨",
+      "unicode": "U+C6E8",
+      "code": "0x0E92",
+      "occurrences": 2
+    },
+    {
+      "character": "위",
+      "unicode": "U+C704",
+      "code": "0x0E94",
+      "occurrences": 35
+    },
+    {
+      "character": "유",
+      "unicode": "U+C720",
+      "code": "0x0E96",
+      "occurrences": 21
+    },
+    {
+      "character": "육",
+      "unicode": "U+C721",
+      "code": "0x0E98",
+      "occurrences": 8
+    },
+    {
+      "character": "율",
+      "unicode": "U+C728",
+      "code": "0x0E9A",
+      "occurrences": 7
+    },
+    {
+      "character": "으",
+      "unicode": "U+C73C",
+      "code": "0x0E9E",
+      "occurrences": 159
+    },
+    {
+      "character": "은",
+      "unicode": "U+C740",
+      "code": "0x0EC2",
+      "occurrences": 130
+    },
+    {
+      "character": "을",
+      "unicode": "U+C744",
+      "code": "0x0EC4",
+      "occurrences": 225
+    },
+    {
+      "character": "음",
+      "unicode": "U+C74C",
+      "code": "0x0EC6",
+      "occurrences": 38
+    },
+    {
+      "character": "응",
+      "unicode": "U+C751",
+      "code": "0x0EC8",
+      "occurrences": 2
+    },
+    {
+      "character": "의",
+      "unicode": "U+C758",
+      "code": "0x0ECE",
+      "occurrences": 155
+    },
+    {
+      "character": "이",
+      "unicode": "U+C774",
+      "code": "0x0ED0",
+      "occurrences": 679
+    },
+    {
+      "character": "인",
+      "unicode": "U+C778",
+      "code": "0x0ED2",
+      "occurrences": 65
+    },
+    {
+      "character": "일",
+      "unicode": "U+C77C",
+      "code": "0x0ED4",
+      "occurrences": 72
+    },
+    {
+      "character": "잃",
+      "unicode": "U+C783",
+      "code": "0x0ED6",
+      "occurrences": 2
+    },
+    {
+      "character": "임",
+      "unicode": "U+C784",
+      "code": "0x0ED8",
+      "occurrences": 41
+    },
+    {
+      "character": "입",
+      "unicode": "U+C785",
+      "code": "0x0F00",
+      "occurrences": 108
+    },
+    {
+      "character": "있",
+      "unicode": "U+C788",
+      "code": "0x0F02",
+      "occurrences": 122
+    },
+    {
+      "character": "잊",
+      "unicode": "U+C78A",
+      "code": "0x0F04",
+      "occurrences": 2
+    },
+    {
+      "character": "자",
+      "unicode": "U+C790",
+      "code": "0x0F06",
+      "occurrences": 40
+    },
+    {
+      "character": "작",
+      "unicode": "U+C791",
+      "code": "0x0F08",
+      "occurrences": 22
+    },
+    {
+      "character": "잖",
+      "unicode": "U+C796",
+      "code": "0x0F0A",
+      "occurrences": 1
+    },
+    {
+      "character": "잘",
+      "unicode": "U+C798",
+      "code": "0x0F0C",
+      "occurrences": 3
+    },
+    {
+      "character": "잠",
+      "unicode": "U+C7A0",
+      "code": "0x0F0E",
+      "occurrences": 20
+    },
+    {
+      "character": "장",
+      "unicode": "U+C7A5",
+      "code": "0x0F10",
+      "occurrences": 62
+    },
+    {
+      "character": "재",
+      "unicode": "U+C7AC",
+      "code": "0x0F12",
+      "occurrences": 29
+    },
+    {
+      "character": "저",
+      "unicode": "U+C800",
+      "code": "0x0F14",
+      "occurrences": 46
+    },
+    {
+      "character": "적",
+      "unicode": "U+C801",
+      "code": "0x0F16",
+      "occurrences": 40
+    },
+    {
+      "character": "전",
+      "unicode": "U+C804",
+      "code": "0x0F18",
+      "occurrences": 90
+    },
+    {
+      "character": "절",
+      "unicode": "U+C808",
+      "code": "0x0F1C",
+      "occurrences": 2
+    },
+    {
+      "character": "점",
+      "unicode": "U+C810",
+      "code": "0x0F40",
+      "occurrences": 19
+    },
+    {
+      "character": "접",
+      "unicode": "U+C811",
+      "code": "0x0F42",
+      "occurrences": 8
+    },
+    {
+      "character": "정",
+      "unicode": "U+C815",
+      "code": "0x0F46",
+      "occurrences": 78
+    },
+    {
+      "character": "제",
+      "unicode": "U+C81C",
+      "code": "0x0F48",
+      "occurrences": 132
+    },
+    {
+      "character": "젠",
+      "unicode": "U+C820",
+      "code": "0x0F4A",
+      "occurrences": 1
+    },
+    {
+      "character": "져",
+      "unicode": "U+C838",
+      "code": "0x0F4C",
+      "occurrences": 6
+    },
+    {
+      "character": "졌",
+      "unicode": "U+C84C",
+      "code": "0x0F4E",
+      "occurrences": 6
+    },
+    {
+      "character": "조",
+      "unicode": "U+C870",
+      "code": "0x0F50",
+      "occurrences": 44
+    },
+    {
+      "character": "족",
+      "unicode": "U+C871",
+      "code": "0x0F52",
+      "occurrences": 1
+    },
+    {
+      "character": "존",
+      "unicode": "U+C874",
+      "code": "0x0F54",
+      "occurrences": 28
+    },
+    {
+      "character": "종",
+      "unicode": "U+C885",
+      "code": "0x0F56",
+      "occurrences": 7
+    },
+    {
+      "character": "좋",
+      "unicode": "U+C88B",
+      "code": "0x0F58",
+      "occurrences": 4
+    },
+    {
+      "character": "주",
+      "unicode": "U+C8FC",
+      "code": "0x0F5A",
+      "occurrences": 39
+    },
+    {
+      "character": "죽",
+      "unicode": "U+C8FD",
+      "code": "0x0F5C",
+      "occurrences": 5
+    },
+    {
+      "character": "준",
+      "unicode": "U+C900",
+      "code": "0x0F5E",
+      "occurrences": 14
+    },
+    {
+      "character": "줄",
+      "unicode": "U+C904",
+      "code": "0x0F80",
+      "occurrences": 2
+    },
+    {
+      "character": "중",
+      "unicode": "U+C911",
+      "code": "0x0F84",
+      "occurrences": 30
+    },
+    {
+      "character": "즈",
+      "unicode": "U+C988",
+      "code": "0x0F88",
+      "occurrences": 6
+    },
+    {
+      "character": "즉",
+      "unicode": "U+C989",
+      "code": "0x0F8C",
+      "occurrences": 24
+    },
+    {
+      "character": "증",
+      "unicode": "U+C99D",
+      "code": "0x0F90",
+      "occurrences": 11
+    },
+    {
+      "character": "지",
+      "unicode": "U+C9C0",
+      "code": "0x0F92",
+      "occurrences": 240
+    },
+    {
+      "character": "직",
+      "unicode": "U+C9C1",
+      "code": "0x0F94",
+      "occurrences": 30
+    },
+    {
+      "character": "진",
+      "unicode": "U+C9C4",
+      "code": "0x0F9E",
+      "occurrences": 19
+    },
+    {
+      "character": "질",
+      "unicode": "U+C9C8",
+      "code": "0x0FC0",
+      "occurrences": 2
+    },
+    {
+      "character": "짐",
+      "unicode": "U+C9D0",
+      "code": "0x0FC4",
+      "occurrences": 1
+    },
+    {
+      "character": "집",
+      "unicode": "U+C9D1",
+      "code": "0x0FCA",
+      "occurrences": 6
+    },
+    {
+      "character": "짓",
+      "unicode": "U+C9D3",
+      "code": "0x0FCE",
+      "occurrences": 2
+    },
+    {
+      "character": "징",
+      "unicode": "U+C9D5",
+      "code": "0x0FD0",
+      "occurrences": 1
+    },
+    {
+      "character": "짜",
+      "unicode": "U+C9DC",
+      "code": "0x0FD2",
+      "occurrences": 2
+    },
+    {
+      "character": "째",
+      "unicode": "U+C9F8",
+      "code": "0x0FD4",
+      "occurrences": 2
+    },
+    {
+      "character": "쨌",
+      "unicode": "U+CA0C",
+      "code": "0x0FD6",
+      "occurrences": 1
+    },
+    {
+      "character": "쩌",
+      "unicode": "U+CA4C",
+      "code": "0x0FDC",
+      "occurrences": 1
+    },
+    {
+      "character": "쪽",
+      "unicode": "U+CABD",
+      "code": "0x0FDE",
+      "occurrences": 3
+    },
+    {
+      "character": "차",
+      "unicode": "U+CC28",
+      "code": "0x1002",
+      "occurrences": 14
+    },
+    {
+      "character": "착",
+      "unicode": "U+CC29",
+      "code": "0x1004",
+      "occurrences": 10
+    },
+    {
+      "character": "찾",
+      "unicode": "U+CC3E",
+      "code": "0x1006",
+      "occurrences": 22
+    },
+    {
+      "character": "채",
+      "unicode": "U+CC44",
+      "code": "0x1008",
+      "occurrences": 4
+    },
+    {
+      "character": "책",
+      "unicode": "U+CC45",
+      "code": "0x100A",
+      "occurrences": 2
+    },
+    {
+      "character": "챘",
+      "unicode": "U+CC58",
+      "code": "0x100C",
+      "occurrences": 2
+    },
+    {
+      "character": "처",
+      "unicode": "U+CC98",
+      "code": "0x100E",
+      "occurrences": 22
+    },
+    {
+      "character": "천",
+      "unicode": "U+CC9C",
+      "code": "0x1010",
+      "occurrences": 3
+    },
+    {
+      "character": "청",
+      "unicode": "U+CCAD",
+      "code": "0x1014",
+      "occurrences": 1
+    },
+    {
+      "character": "체",
+      "unicode": "U+CCB4",
+      "code": "0x1016",
+      "occurrences": 37
+    },
+    {
+      "character": "쳇",
+      "unicode": "U+CCC7",
+      "code": "0x1018",
+      "occurrences": 1
+    },
+    {
+      "character": "쳐",
+      "unicode": "U+CCD0",
+      "code": "0x101A",
+      "occurrences": 2
+    },
+    {
+      "character": "쳤",
+      "unicode": "U+CCE4",
+      "code": "0x101C",
+      "occurrences": 1
+    },
+    {
+      "character": "초",
+      "unicode": "U+CD08",
+      "code": "0x101E",
+      "occurrences": 4
+    },
+    {
+      "character": "촉",
+      "unicode": "U+CD09",
+      "code": "0x104A",
+      "occurrences": 1
+    },
+    {
+      "character": "최",
+      "unicode": "U+CD5C",
+      "code": "0x104C",
+      "occurrences": 9
+    },
+    {
+      "character": "쵸",
+      "unicode": "U+CD78",
+      "code": "0x1054",
+      "occurrences": 2
+    },
+    {
+      "character": "추",
+      "unicode": "U+CD94",
+      "code": "0x1058",
+      "occurrences": 16
+    },
+    {
+      "character": "춘",
+      "unicode": "U+CD98",
+      "code": "0x105A",
+      "occurrences": 1
+    },
+    {
+      "character": "출",
+      "unicode": "U+CD9C",
+      "code": "0x1080",
+      "occurrences": 24
+    },
+    {
+      "character": "충",
+      "unicode": "U+CDA9",
+      "code": "0x1084",
+      "occurrences": 17
+    },
+    {
+      "character": "취",
+      "unicode": "U+CDE8",
+      "code": "0x1086",
+      "occurrences": 4
+    },
+    {
+      "character": "치",
+      "unicode": "U+CE58",
+      "code": "0x1088",
+      "occurrences": 73
+    },
+    {
+      "character": "친",
+      "unicode": "U+CE5C",
+      "code": "0x108A",
+      "occurrences": 3
+    },
+    {
+      "character": "칠",
+      "unicode": "U+CE60",
+      "code": "0x108C",
+      "occurrences": 1
+    },
+    {
+      "character": "침",
+      "unicode": "U+CE68",
+      "code": "0x108E",
+      "occurrences": 14
+    },
+    {
+      "character": "캡",
+      "unicode": "U+CEA1",
+      "code": "0x1090",
+      "occurrences": 3
+    },
+    {
+      "character": "컴",
+      "unicode": "U+CEF4",
+      "code": "0x1092",
+      "occurrences": 9
+    },
+    {
+      "character": "켰",
+      "unicode": "U+CF30",
+      "code": "0x1094",
+      "occurrences": 2
+    },
+    {
+      "character": "코",
+      "unicode": "U+CF54",
+      "code": "0x1096",
+      "occurrences": 11
+    },
+    {
+      "character": "콘",
+      "unicode": "U+CF58",
+      "code": "0x1098",
+      "occurrences": 2
+    },
+    {
+      "character": "퀀",
+      "unicode": "U+D000",
+      "code": "0x109C",
+      "occurrences": 2
+    },
+    {
+      "character": "큐",
+      "unicode": "U+D050",
+      "code": "0x10C0",
+      "occurrences": 19
+    },
+    {
+      "character": "크",
+      "unicode": "U+D06C",
+      "code": "0x10C6",
+      "occurrences": 13
+    },
+    {
+      "character": "큰",
+      "unicode": "U+D070",
+      "code": "0x10C8",
+      "occurrences": 3
+    },
+    {
+      "character": "클",
+      "unicode": "U+D074",
+      "code": "0x10D0",
+      "occurrences": 6
+    },
+    {
+      "character": "큽",
+      "unicode": "U+D07D",
+      "code": "0x10DE",
+      "occurrences": 4
+    },
+    {
+      "character": "키",
+      "unicode": "U+D0A4",
+      "code": "0x1102",
+      "occurrences": 1
+    },
+    {
+      "character": "킨",
+      "unicode": "U+D0A8",
+      "code": "0x110A",
+      "occurrences": 4
+    },
+    {
+      "character": "킬",
+      "unicode": "U+D0AC",
+      "code": "0x110E",
+      "occurrences": 3
+    },
+    {
+      "character": "킹",
+      "unicode": "U+D0B9",
+      "code": "0x1110",
+      "occurrences": 3
+    },
+    {
+      "character": "타",
+      "unicode": "U+D0C0",
+      "code": "0x1116",
+      "occurrences": 17
+    },
+    {
+      "character": "탈",
+      "unicode": "U+D0C8",
+      "code": "0x111E",
+      "occurrences": 18
+    },
+    {
+      "character": "탐",
+      "unicode": "U+D0D0",
+      "code": "0x1140",
+      "occurrences": 4
+    },
+    {
+      "character": "탑",
+      "unicode": "U+D0D1",
+      "code": "0x1142",
+      "occurrences": 1
+    },
+    {
+      "character": "탓",
+      "unicode": "U+D0D3",
+      "code": "0x1146",
+      "occurrences": 1
+    },
+    {
+      "character": "탔",
+      "unicode": "U+D0D4",
+      "code": "0x1148",
+      "occurrences": 1
+    },
+    {
+      "character": "태",
+      "unicode": "U+D0DC",
+      "code": "0x1152",
+      "occurrences": 27
+    },
+    {
+      "character": "택",
+      "unicode": "U+D0DD",
+      "code": "0x1180",
+      "occurrences": 10
+    },
+    {
+      "character": "탱",
+      "unicode": "U+D0F1",
+      "code": "0x1182",
+      "occurrences": 5
+    },
+    {
+      "character": "터",
+      "unicode": "U+D130",
+      "code": "0x1188",
+      "occurrences": 263
+    },
+    {
+      "character": "턴",
+      "unicode": "U+D134",
+      "code": "0x118A",
+      "occurrences": 1
+    },
+    {
+      "character": "테",
+      "unicode": "U+D14C",
+      "code": "0x119E",
+      "occurrences": 21
+    },
+    {
+      "character": "템",
+      "unicode": "U+D15C",
+      "code": "0x11C0",
+      "occurrences": 15
+    },
+    {
+      "character": "통",
+      "unicode": "U+D1B5",
+      "code": "0x11C2",
+      "occurrences": 12
+    },
+    {
+      "character": "퇴",
+      "unicode": "U+D1F4",
+      "code": "0x11C6",
+      "occurrences": 2
+    },
+    {
+      "character": "투",
+      "unicode": "U+D22C",
+      "code": "0x11D6",
+      "occurrences": 6
+    },
+    {
+      "character": "트",
+      "unicode": "U+D2B8",
+      "code": "0x11D8",
+      "occurrences": 45
+    },
+    {
+      "character": "특",
+      "unicode": "U+D2B9",
+      "code": "0x11DA",
+      "occurrences": 4
+    },
+    {
+      "character": "튼",
+      "unicode": "U+D2BC",
+      "code": "0x1200",
+      "occurrences": 2
+    },
+    {
+      "character": "틀",
+      "unicode": "U+D2C0",
+      "code": "0x1204",
+      "occurrences": 6
+    },
+    {
+      "character": "티",
+      "unicode": "U+D2F0",
+      "code": "0x1208",
+      "occurrences": 22
+    },
+    {
+      "character": "팀",
+      "unicode": "U+D300",
+      "code": "0x120C",
+      "occurrences": 4
+    },
+    {
+      "character": "파",
+      "unicode": "U+D30C",
+      "code": "0x1210",
+      "occurrences": 49
+    },
+    {
+      "character": "판",
+      "unicode": "U+D310",
+      "code": "0x1212",
+      "occurrences": 6
+    },
+    {
+      "character": "패",
+      "unicode": "U+D328",
+      "code": "0x1214",
+      "occurrences": 1
+    },
+    {
+      "character": "퍼",
+      "unicode": "U+D37C",
+      "code": "0x1216",
+      "occurrences": 13
+    },
+    {
+      "character": "펌",
+      "unicode": "U+D38C",
+      "code": "0x1218",
+      "occurrences": 1
+    },
+    {
+      "character": "페",
+      "unicode": "U+D398",
+      "code": "0x121A",
+      "occurrences": 2
+    },
+    {
+      "character": "펙",
+      "unicode": "U+D399",
+      "code": "0x121C",
+      "occurrences": 1
+    },
+    {
+      "character": "편",
+      "unicode": "U+D3B8",
+      "code": "0x121E",
+      "occurrences": 1
+    },
+    {
+      "character": "평",
+      "unicode": "U+D3C9",
+      "code": "0x1240",
+      "occurrences": 3
+    },
+    {
+      "character": "포",
+      "unicode": "U+D3EC",
+      "code": "0x1242",
+      "occurrences": 10
+    },
+    {
+      "character": "폭",
+      "unicode": "U+D3ED",
+      "code": "0x1244",
+      "occurrences": 17
+    },
+    {
+      "character": "표",
+      "unicode": "U+D45C",
+      "code": "0x1246",
+      "occurrences": 48
+    },
+    {
+      "character": "풀",
+      "unicode": "U+D480",
+      "code": "0x1248",
+      "occurrences": 3
+    },
+    {
+      "character": "품",
+      "unicode": "U+D488",
+      "code": "0x124C",
+      "occurrences": 3
+    },
+    {
+      "character": "퓨",
+      "unicode": "U+D4E8",
+      "code": "0x124E",
+      "occurrences": 13
+    },
+    {
+      "character": "프",
+      "unicode": "U+D504",
+      "code": "0x1250",
+      "occurrences": 13
+    },
+    {
+      "character": "플",
+      "unicode": "U+D50C",
+      "code": "0x1252",
+      "occurrences": 7
+    },
+    {
+      "character": "피",
+      "unicode": "U+D53C",
+      "code": "0x1254",
+      "occurrences": 18
+    },
+    {
+      "character": "필",
+      "unicode": "U+D544",
+      "code": "0x1256",
+      "occurrences": 7
+    },
+    {
+      "character": "핑",
+      "unicode": "U+D551",
+      "code": "0x1258",
+      "occurrences": 7
+    },
+    {
+      "character": "하",
+      "unicode": "U+D558",
+      "code": "0x125A",
+      "occurrences": 271
+    },
+    {
+      "character": "학",
+      "unicode": "U+D559",
+      "code": "0x125C",
+      "occurrences": 1
+    },
+    {
+      "character": "한",
+      "unicode": "U+D55C",
+      "code": "0x125E",
+      "occurrences": 102
+    },
+    {
+      "character": "할",
+      "unicode": "U+D560",
+      "code": "0x1280",
+      "occurrences": 53
+    },
+    {
+      "character": "함",
+      "unicode": "U+D568",
+      "code": "0x1282",
+      "occurrences": 31
+    },
+    {
+      "character": "합",
+      "unicode": "U+D569",
+      "code": "0x1284",
+      "occurrences": 48
+    },
+    {
+      "character": "항",
+      "unicode": "U+D56D",
+      "code": "0x1286",
+      "occurrences": 1
+    },
+    {
+      "character": "해",
+      "unicode": "U+D574",
+      "code": "0x1288",
+      "occurrences": 138
+    },
+    {
+      "character": "했",
+      "unicode": "U+D588",
+      "code": "0x128A",
+      "occurrences": 68
+    },
+    {
+      "character": "행",
+      "unicode": "U+D589",
+      "code": "0x128C",
+      "occurrences": 17
+    },
+    {
+      "character": "향",
+      "unicode": "U+D5A5",
+      "code": "0x128E",
+      "occurrences": 4
+    },
+    {
+      "character": "허",
+      "unicode": "U+D5C8",
+      "code": "0x1290",
+      "occurrences": 1
+    },
+    {
+      "character": "험",
+      "unicode": "U+D5D8",
+      "code": "0x1292",
+      "occurrences": 11
+    },
+    {
+      "character": "혀",
+      "unicode": "U+D600",
+      "code": "0x1294",
+      "occurrences": 4
+    },
+    {
+      "character": "현",
+      "unicode": "U+D604",
+      "code": "0x1296",
+      "occurrences": 11
+    },
+    {
+      "character": "혈",
+      "unicode": "U+D608",
+      "code": "0x1298",
+      "occurrences": 1
+    },
+    {
+      "character": "협",
+      "unicode": "U+D611",
+      "code": "0x129A",
+      "occurrences": 4
+    },
+    {
+      "character": "혔",
+      "unicode": "U+D614",
+      "code": "0x129C",
+      "occurrences": 1
+    },
+    {
+      "character": "형",
+      "unicode": "U+D615",
+      "code": "0x129E",
+      "occurrences": 7
+    },
+    {
+      "character": "혜",
+      "unicode": "U+D61C",
+      "code": "0x12C0",
+      "occurrences": 2
+    },
+    {
+      "character": "호",
+      "unicode": "U+D638",
+      "code": "0x12C2",
+      "occurrences": 10
+    },
+    {
+      "character": "혹",
+      "unicode": "U+D639",
+      "code": "0x12C4",
+      "occurrences": 2
+    },
+    {
+      "character": "혼",
+      "unicode": "U+D63C",
+      "code": "0x12C6",
+      "occurrences": 2
+    },
+    {
+      "character": "화",
+      "unicode": "U+D654",
+      "code": "0x12C8",
+      "occurrences": 40
+    },
+    {
+      "character": "확",
+      "unicode": "U+D655",
+      "code": "0x12CA",
+      "occurrences": 20
+    },
+    {
+      "character": "환",
+      "unicode": "U+D658",
+      "code": "0x12CC",
+      "occurrences": 20
+    },
+    {
+      "character": "활",
+      "unicode": "U+D65C",
+      "code": "0x12CE",
+      "occurrences": 25
+    },
+    {
+      "character": "황",
+      "unicode": "U+D669",
+      "code": "0x12D0",
+      "occurrences": 2
+    },
+    {
+      "character": "회",
+      "unicode": "U+D68C",
+      "code": "0x12D2",
+      "occurrences": 36
+    },
+    {
+      "character": "획",
+      "unicode": "U+D68D",
+      "code": "0x12D4",
+      "occurrences": 12
+    },
+    {
+      "character": "효",
+      "unicode": "U+D6A8",
+      "code": "0x12D6",
+      "occurrences": 12
+    },
+    {
+      "character": "후",
+      "unicode": "U+D6C4",
+      "code": "0x12D8",
+      "occurrences": 10
+    },
+    {
+      "character": "훌",
+      "unicode": "U+D6CC",
+      "code": "0x12DA",
+      "occurrences": 4
+    },
+    {
+      "character": "훨",
+      "unicode": "U+D6E8",
+      "code": "0x12DC",
+      "occurrences": 3
+    },
+    {
+      "character": "휘",
+      "unicode": "U+D718",
+      "code": "0x12DE",
+      "occurrences": 4
+    },
+    {
+      "character": "흐",
+      "unicode": "U+D750",
+      "code": "0x1300",
+      "occurrences": 2
+    },
+    {
+      "character": "흔",
+      "unicode": "U+D754",
+      "code": "0x1302",
+      "occurrences": 1
+    },
+    {
+      "character": "흡",
+      "unicode": "U+D761",
+      "code": "0x1304",
+      "occurrences": 17
+    },
+    {
+      "character": "흥",
+      "unicode": "U+D765",
+      "code": "0x1306",
+      "occurrences": 1
+    },
+    {
+      "character": "희",
+      "unicode": "U+D76C",
+      "code": "0x1308",
+      "occurrences": 1
+    },
+    {
+      "character": "히",
+      "unicode": "U+D788",
+      "code": "0x130A",
+      "occurrences": 21
+    },
+    {
+      "character": "힘",
+      "unicode": "U+D798",
+      "code": "0x130C",
+      "occurrences": 4
+    }
+  ],
+  "unassigned_candidate_codes": [
+    "0x130E",
+    "0x1310",
+    "0x1312",
+    "0x1314",
+    "0x1316",
+    "0x1318",
+    "0x131A",
+    "0x131C",
+    "0x131E",
+    "0x1340",
+    "0x1342",
+    "0x1344",
+    "0x1346",
+    "0x1348",
+    "0x134A",
+    "0x134C",
+    "0x134E",
+    "0x1350",
+    "0x1352",
+    "0x1354",
+    "0x1356",
+    "0x1358",
+    "0x135A",
+    "0x135C",
+    "0x135E",
+    "0x1380",
+    "0x1382",
+    "0x1384",
+    "0x1386",
+    "0x1388",
+    "0x138A",
+    "0x138C",
+    "0x138E",
+    "0x1390",
+    "0x1392",
+    "0x1394",
+    "0x1396",
+    "0x1398",
+    "0x139A",
+    "0x139E",
+    "0x13C0",
+    "0x13C2",
+    "0x13C4",
+    "0x13C6",
+    "0x13C8",
+    "0x13CA",
+    "0x13CC",
+    "0x13CE",
+    "0x13D0",
+    "0x13D2",
+    "0x13D4",
+    "0x13D6",
+    "0x13D8",
+    "0x13DA",
+    "0x13DE",
+    "0x1400",
+    "0x1402",
+    "0x1404",
+    "0x1406",
+    "0x1408",
+    "0x140A",
+    "0x140C",
+    "0x140E",
+    "0x1410",
+    "0x1412",
+    "0x1414",
+    "0x1416",
+    "0x1418",
+    "0x141A",
+    "0x141C",
+    "0x141E",
+    "0x1440",
+    "0x1442",
+    "0x1444",
+    "0x1446",
+    "0x1448",
+    "0x144A",
+    "0x144C",
+    "0x144E",
+    "0x1450",
+    "0x1452",
+    "0x1454",
+    "0x1456",
+    "0x1458",
+    "0x145A",
+    "0x145C",
+    "0x145E",
+    "0x1480",
+    "0x1482",
+    "0x1484",
+    "0x1486",
+    "0x1488",
+    "0x148C",
+    "0x148E",
+    "0x1490",
+    "0x1492",
+    "0x1494",
+    "0x1496",
+    "0x1498",
+    "0x149A",
+    "0x149C",
+    "0x149E",
+    "0x14C0",
+    "0x14C2",
+    "0x14C4",
+    "0x14C6",
+    "0x14C8",
+    "0x14CA",
+    "0x14CC",
+    "0x14CE",
+    "0x14D0",
+    "0x14D2",
+    "0x14D4",
+    "0x14D6",
+    "0x14D8",
+    "0x14DA",
+    "0x14DC",
+    "0x14DE",
+    "0x1500",
+    "0x1502",
+    "0x1504",
+    "0x1506",
+    "0x1508",
+    "0x150A",
+    "0x150C",
+    "0x150E",
+    "0x1510",
+    "0x1512",
+    "0x1514",
+    "0x1516",
+    "0x1518",
+    "0x151A",
+    "0x151C",
+    "0x151E",
+    "0x1540",
+    "0x1542",
+    "0x1544",
+    "0x1548",
+    "0x154A",
+    "0x154C",
+    "0x154E",
+    "0x1550",
+    "0x1552",
+    "0x1554",
+    "0x1556",
+    "0x1558",
+    "0x155A",
+    "0x155C",
+    "0x155E",
+    "0x1580",
+    "0x1582",
+    "0x1584",
+    "0x1586",
+    "0x1588",
+    "0x158A",
+    "0x158C",
+    "0x158E",
+    "0x1590",
+    "0x1592",
+    "0x1594",
+    "0x1596",
+    "0x1598",
+    "0x159A",
+    "0x159C",
+    "0x159E",
+    "0x15C0",
+    "0x15C2",
+    "0x15C4",
+    "0x15C6",
+    "0x15C8",
+    "0x15CA",
+    "0x15CC",
+    "0x15CE",
+    "0x15D0",
+    "0x15D2",
+    "0x15D4",
+    "0x15D6",
+    "0x15DA"
+  ]
+}

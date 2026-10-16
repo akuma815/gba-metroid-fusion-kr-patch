@@ -1,0 +1,664 @@
+{
+  "schema_version": 1,
+  "translation_id": "fusion_jp_additional_main_text_ko",
+  "source_catalog": "workspace/text/source/additional_text.json",
+  "source_catalog_sha256": "DE7B7695ECDA39255B65437A086BEB16D9BAB714C612F2ED37CC43AB54606BF1",
+  "scope": {
+    "source_language": "ja",
+    "target_language": "ko",
+    "entry_count": 93
+  },
+  "entries": [
+    {
+      "entry_id": "message/ja/000",
+      "ko": "{ctrl:803A}보안 레벨 1 해제.{br}{ctrl:8034}파란색 해치 활성화.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/001",
+      "ko": "{ctrl:8039}보안 레벨 2 해제.{br}{ctrl:803A}녹색 해치 활성화.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/002",
+      "ko": "{ctrl:8039}보안 레벨 3 해제.{br}{ctrl:8034}노란색 해치 활성화.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/003",
+      "ko": "{ctrl:8039}보안 레벨 4 해제.{br}{ctrl:8034}빨간색 해치 활성화.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/004",
+      "ko": "{ctrl:8019}미사일 데이터 다운로드 완료.{br}{ctrl:8012}{glyph:030E}{glyph:030F}을 누른 채 {glyph:030A}{glyph:030B}을 누르십시오.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/005",
+      "ko": "{ctrl:800A}슈퍼 미사일 데이터 다운로드 완료.{br}{ctrl:8012}{glyph:030E}{glyph:030F}을 누른 채 {glyph:030A}{glyph:030B}을 누르십시오.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/006",
+      "ko": "{ctrl:8025}봄 데이터 다운로드 완료.{br}{ctrl:800B}모프볼 상태에서 {glyph:030A}{glyph:030B}을 누르십시오.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/007",
+      "ko": "{ctrl:8016}파워 봄 데이터 다운로드 완료.{br}{ctrl:8000}모프볼 상태로 {glyph:030E}{glyph:030F}과 {glyph:030A}{glyph:030B}을 누르십시오.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/008",
+      "ko": "{ctrl:801F}미사일에 아이스 효과 추가.{br}{ctrl:802B}적을 얼릴 수 있습니다.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/009",
+      "ko": "{ctrl:801F}미사일에 디퓨전 효과 추가.{br}{ctrl:8009}{glyph:030E}{glyph:030F}로 차지하고 {glyph:030A}{glyph:030B}로 발사하십시오.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/010",
+      "ko": "{ctrl:803A}모프볼 능력 회복.{br}{ctrl:8014}{glyph:0302}{glyph:0303}을 두 번 눌러 변형하십시오.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/011",
+      "ko": "{ctrl:8036}하이 점프와 점프볼{br}{ctrl:804F}능력 회복.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/012",
+      "ko": "{ctrl:802B}스크루 어택 능력 회복.{br}{ctrl:8013}회전 점프로 적을 공격하십시오.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/013",
+      "ko": "{ctrl:8025}스페이스 점프 능력 회복.{br}{ctrl:8016}공중 연속 회전 점프가 됩니다.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/014",
+      "ko": "{ctrl:8025}스피드 부스터 능력 회복.{br}{ctrl:8007}달리면 스피드 부스트가 발동됩니다.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/015",
+      "ko": "{ctrl:802B}배리어 슈트 기능 회복.{br}{ctrl:800A}극한 온도에서도 견딜 수 있습니다.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/016",
+      "ko": "{ctrl:8025}그래비티 슈트 기능 회복.{br}{ctrl:8016}물속에서 자유롭게 움직입니다.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/017",
+      "ko": "{ctrl:8037}차지 빔 능력 회복.{br}{ctrl:8017}{glyph:030A}{glyph:030B}을 길게 눌러 차지하십시오.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/018",
+      "ko": "{ctrl:8031}와이드 빔 능력 회복.{br}{ctrl:8019}빔의 공격 범위가 넓어집니다.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/019",
+      "ko": "{ctrl:8031}웨이브 빔 능력 회복.{br}{ctrl:802E}빔이 벽을 관통합니다.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/020",
+      "ko": "{ctrl:802B}플라즈마 빔 능력 회복.{br}{ctrl:802E}빔이 적을 관통합니다.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/021",
+      "ko": "{ctrl:802B}빔에 아이스 효과 추가.{br}{ctrl:8016}빔으로 적을 얼릴 수 있습니다.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/022",
+      "ko": "{ctrl:8031}대기 안정 장치 가동.{br}{ctrl:803C}아직 4기 오작동.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/023",
+      "ko": "{ctrl:802E}대기 안정 장치 가동. {br}{ctrl:803C}아직 3기 오작동.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/024",
+      "ko": "{ctrl:802E}대기 안정 장치 가동. {br}{ctrl:803C}아직 2기 오작동.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/025",
+      "ko": "{ctrl:802E}대기 안정 장치 가동. {br}{ctrl:803D}아직 1기 오작동.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/026",
+      "ko": "{ctrl:8022}모든 대기 안정 장치 가동.{br}{ctrl:803A}대기 상태 정상화.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/027",
+      "ko": "{ctrl:804F}수위 저하.{br}{ctrl:806E}{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/028",
+      "ko": "{ctrl:8040}냉각 장치 가동.{br}{ctrl:806E}{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/029",
+      "ko": "{ctrl:804F}잠금 해제.{br}{ctrl:8049}게이트 개방.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/030",
+      "ko": "{ctrl:8040}보조 전력 가동.{br}{ctrl:806E}{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/031",
+      "ko": "{ctrl:8021}제한 구역 연구실 분리까지{br}{ctrl:805D}60초.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/032",
+      "ko": "{ctrl:8040}궤도 변경 완료.{br}{ctrl:8045}충돌까지 3분.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/033",
+      "ko": "{ctrl:8044}데이터 저장{glyph:041F} {br}{ctrl:8051}{ctrl:8340}예 {ctrl:83A0}아니요{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/034",
+      "ko": "{ctrl:804F}저장 완료.{br}{ctrl:806E}{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/035",
+      "ko": "{ctrl:803A}ADAM에 업링크{glyph:041F} {br}{ctrl:8051}{ctrl:8340}예 {ctrl:83A0}아니요{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/036",
+      "ko": "{ctrl:804B}무기 시스템{br}{ctrl:804C} 보급 완료.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/037",
+      "ko": "{ctrl:804B}에너지 탱크{br}{ctrl:804F}충전 완료.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/038",
+      "ko": "{ctrl:803F}무기 및 에너지 {br}{ctrl:804F}완전 회복.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/039",
+      "ko": "{ctrl:8037}에너지 탱크 획득. {br}{ctrl:8034}에너지 최대치 증가.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/040",
+      "ko": "{ctrl:8037}미사일 탱크 획득. {br}{ctrl:8034}미사일 최대치 증가.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/041",
+      "ko": "{ctrl:8037}파워 봄 탱크 획득.{br}{ctrl:8031}파워 봄 최대치 증가.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/042",
+      "ko": "{ctrl:8046}적 위치 이상.{br}{ctrl:8025}메시지 프레임 위치 확인.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/043",
+      "ko": "{ctrl:804D}목표 확인{glyph:041F}{br}{ctrl:804E}{ctrl:8340}예  {ctrl:83A0}아니요{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/044",
+      "ko": "{ctrl:803E}임무 목표 확인{glyph:041F}{br}{ctrl:804E}{ctrl:8340}예  {ctrl:83A0}아니요{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/045",
+      "ko": "{ctrl:8026}슬립 모드로 전환합니까{glyph:041F}{br}{ctrl:801F}슬립 모드에서 복귀 하려면,{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/046",
+      "ko": "{ctrl:8029}SELECT와 L, R 버튼을{br}{ctrl:803D}동시에 누르세요.{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "message/ja/047",
+      "ko": "{ctrl:8066}예{br}{ctrl:805A}아니요{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/000",
+      "ko": "{ctrl:8057}메인 덱{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/001",
+      "ko": "{ctrl:8046}섹터 1 (SRX){end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/002",
+      "ko": "{ctrl:8045}섹터 2 (TRO){end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/003",
+      "ko": "{ctrl:8045}섹터 3 (PYR){end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/004",
+      "ko": "{ctrl:8045}섹터 4 (AQA){end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/005",
+      "ko": "{ctrl:8045}섹터 5 (ARC){end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/006",
+      "ko": "{ctrl:8045}섹터 6 (NOC){end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/007",
+      "ko": "{ctrl:8045}리액터 사일로{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/008",
+      "ko": "{ctrl:8051}제한 구역{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/009",
+      "ko": "{ctrl:8045}오퍼레이션 덱{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/010",
+      "ko": "{ctrl:8057}거주 덱{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/011",
+      "ko": "{ctrl:8051}도킹 베이{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/012",
+      "ko": "{ctrl:8045}내비게이션 룸{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/013",
+      "ko": "{ctrl:8051}데이터 룸{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/014",
+      "ko": "{ctrl:804B}시큐리티 룸{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/015",
+      "ko": "{ctrl:8051}리차지 룸{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/016",
+      "ko": "{ctrl:8051}세이브 룸{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/017",
+      "ko": "{ctrl:8045}오퍼레이션 룸{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/018",
+      "ko": "{ctrl:8051}격리 구역{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/019",
+      "ko": "{ctrl:8042}저온 격리 구역{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/020",
+      "ko": "{ctrl:803C}중앙 리액터 코어{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/021",
+      "ko": "{ctrl:804B}보조 발전소{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/022",
+      "ko": "{ctrl:803C}제한 구역 연구실{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/023",
+      "ko": "{ctrl:8042}펌프 제어 장치{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/024",
+      "ko": "{ctrl:804B}메인 보일러{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "location/ja/025",
+      "ko": "{ctrl:8036}메인 보일러 제어실{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "monologue/ja/000",
+      "ko": "함선 컴퓨터가{br}BIOLOGIC 우주생물연구소, 즉{br}B.S.L. 연구 기지에{br}접근 중이라고 알렸다.{br}내가 수술을 받는 동안 연구팀은{br}그 곳에서 우리가 포획한{br}마지막 생물 표본과 감염된 내 파워{br}슈트 조각을 보냈다.{br}{ctrl:FC00}{ctrl:FD00}의식을 되찾자, 원인 불명의{br}폭발이 연구 기지를 뒤흔들었다는{br}사실을 알게 되었다. 이유는{br}알 수 없지만 그 소식은 내{br}마음속에 이름 모를 불안을{br}일으켰고, 나는 조사를 위해 그곳으로{br}향하고 있다.{ctrl:FC00}{ctrl:FD00}B.S.L. 연구 기지에서의{br}임무는 새 함선의{br}컴퓨터가 감독하게 된다.{br}이 무뚝뚝한 컴퓨터{br}지휘관의 명령을 따르는{br}것이 이 함선을 지원 받는{br}조건이었으니 감수해야 한다.{br}명령받는 것을 싫어하는{br}나에게 이번이{ctrl:FC00}{ctrl:FD00}명령을 따라야 하는 두번째 상황이다.{br}이는 나로 하여금 문득 예전의{br}지휘관을 떠올리게 한다...{ctrl:FC00}{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "monologue/ja/001",
+      "ko": "{ctrl:E110}그 컴퓨터를 보면 예전에 함께{br}복무했던 무뚝뚝한 은하 연방 지휘관,{br}아담 말코비치가 떠오른다. 그는{br}임무 중 나를 {glyph:0311}‘레이디’라고 불렀다.{br}다른 사람이 그랬다면 빈정거리는{br}말처럼 들렸겠지만,{br}아담이 부르면 묘한 품위가 있었다.{br}존경과 약간의 반어를 담아 이{br}컴퓨터에 그의 이름을 붙였다.{ctrl:FC00}{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "monologue/ja/002",
+      "ko": "{ctrl:E110}브리핑을 듣는 동안 아담을 떠올렸다.{br}진짜 아담은 나를 잘 이해했다.{br}그는 명령의 끝에 늘{br}{glyph:0311}이의 있나, 레이디{glyph:0311} 라고{br}덧붙였다. 내가 반대하지{br}않으리라는 것을 알고 있었다.{br}그것은 우리 사이의 신뢰를{br}확인하는 그만의 방식이었다.{br}이 컴퓨터도 믿을 수 있을까...{ctrl:FC00}{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "monologue/ja/003",
+      "ko": "{ctrl:E110}SA-X. 내가 가장 강했을{br}때의 능력을 가진 적이다. 하지만{br}이성도 있을까{glyph:041F} 아마 없을{br}것이다. 그저 살육 기계에 지나지{br}않는다. 지금 상태로는 정면으로 상대할{br}수 없다. SA-X는{br}나이면서도 마음이 없는 존재다. 자신의{br}잠재력을 깨닫고 우주를 위협하기{br}전에 반드시 막아야 한다...{ctrl:FC00}{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "monologue/ja/004",
+      "ko": "{ctrl:E110}에테콘과 다쵸라스. 예전에{br}만난 적이 있는 지적인{br}생명체들이다. 그들도 나를{br}알아본 듯했다. 이런{br}곳에서 다시 만나다니 기묘한{br}일이다. 과거에는 나조차 몰랐던{br}능력을 끌어내는 데 도움을{br}주었다. 하지만 어디로 달아난{br}걸까{glyph:041F} 무사하기를 바란다...{ctrl:FC00}{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "monologue/ja/005",
+      "ko": "{ctrl:E110}진짜 아담이라면 그 사건에 대해{br}같은 말을 했을 것이다.{br}하지만 조금은 충격을 덜어{br}주는 방식으로 말했을{br}것이다. 그는 비판할 때 가차 없었지만{br}언제나 상대를 생각했다...{br}임무에만 집착하는 기계가{br}아니었다. 저 컴퓨터에 그런{br}배려가 있을 리 없다...{ctrl:FC00}{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "monologue/ja/006",
+      "ko": "{ctrl:E110}은하 연방 함선이{br}착륙하는 순간 X는 그들을 덮쳐{br}탑승자들의 지식과 힘을{br}흡수할 것이다. X는{br}사냥이 시작되기만을 기다리고{br}있다. 그 뒤에는 우주{br}전역으로 퍼져 나갈{br}것이다. 은하 문명은 끝난다.{ctrl:FC00}{ctrl:FD00}{ctrl:E10A}X는 형태와 지식과 힘을 탐한다.{br}그리고 그것들을{br}완벽하게 의태한다. 하지만{br}영혼까지 복제할 수는 없다.{br}오직 개체 수를{br}늘리는 본능에 따라 한{br}방향으로 움직이는 존재다.{br}X는 재앙이며, 은하 연방은{br}그 위험을 과소평가하고 있다.{ctrl:FC00}{ctrl:FD00}{ctrl:E10A}X를 이곳에서 내보내서는 안 된다.{br}연방이 도착하기 전에{br}전부 없애야 한다.{br}이 스테이션에는 자폭 장치가 있다.{br}그것을 이용해 이곳과{br}행성에 있는 X를 모두 없애야 한다.{br}X도, 스테이션도,{br}필요하다면 나 자신까지도 함께{br}사라지게 해야 한다.{ctrl:FC00}{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "monologue/ja/007",
+      "ko": "완벽한 군인의 사고방식...{br}아담 말코비치의 지혜는 죽은{br}뒤에도 여전히 힘을 발휘하고{br}있었다.{ctrl:E114} 오늘까지 나는{br}지도자와 과학자들의 사고가{br}종종 컴퓨터에 업로드된다는{br}사실을 전혀 몰랐다.{ctrl:E114}{br}아담과의 믿기 힘든 재회는{br}어쩌면 우주를 구한 셈이다...{ctrl:E114}{ctrl:FC00}{ctrl:FD00}하지만 우주의 존재들은{br}우리의 결의를 어떻게 받아들일까{glyph:041F}{ctrl:E114}{br}우리가 한 일과... 간신히{br}피한 위험을 이해할{br}수 있을지 의문이다. 재판과{br}조사가 이어질 것이다.{br}책임도 우리에게 물을 것이다.{ctrl:E114}{br}아담은 그것을 알고 있었고,{br}분노한 내게 말했다...{ctrl:E114}{ctrl:FC00}{ctrl:FD00}{glyph:0311}걱정하지 마라.{ctrl:E10A} 그들 중 한 명은{br}이해할 것이다. 반드시 한 명은.\"{ctrl:E114}{ctrl:FC00}{ctrl:FD00}그의 말을 곱씹어 보니,{ctrl:E114}{br}그 안의 지혜가 보인다.{br}우리는 모두 자신의 경험에{br}묶여 있다. 경험은{br}곧 의식의 한계이기도 하다.{ctrl:E114}{ctrl:FC00}{ctrl:FD00}하지만 결국 인간의 영혼은 언제나{br}진실을 향해 손을 뻗는다... 그것이{br}아담이 내게 가르쳐 준 것이다.{ctrl:E114}{ctrl:FC00}{ctrl:FD00}그래도 한 가지가 계속 마음에{br}걸린다. 이 함선은 수동으로만{br}시동할 수 있다.{ctrl:E114} 그런데 내가{br}오메가 메트로이드와 맞서기{br}전, 함선은 누군가의{br}손에 이끌리듯 스스로{br}움직였다. {glyph:041F}설마 아담이...{glyph:041F}{ctrl:E114}{ctrl:FC00}{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "monologue/ja/008",
+      "ko": "BIOLOGIC의{br}연구팀을 경호하는 임무를 맡아,{ctrl:FC00}{ctrl:FD00}나는 다시 SR388의{br}지표에 서게 되었다.{ctrl:FC00}{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "monologue/ja/009",
+      "ko": "그곳에서 나는 정체불명의{br}생명체에게 습격당했다.{ctrl:FC00}{ctrl:FD00}한 번도 본 적 없는 생명체였다.{ctrl:FC00}{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "monologue/ja/010",
+      "ko": "공격자의 정체를 안{br}것은 나중이었다.{ctrl:FC00}{ctrl:FD00}지금 X라 부르는{br}기생 생물이었다.{ctrl:FC00}{ctrl:FD00}감염도 모른 채{br}연구 기지로 돌아가던 중{ctrl:FC00}{ctrl:FD00}재난이 닥쳤다.{ctrl:FC00}{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "monologue/ja/011",
+      "ko": "X가 중추신경계까지{br}침입하자 나는{ctrl:FC00}{ctrl:FD00}의식을 잃었고, 함선은{br}소행성대로 표류했다.{ctrl:FC00}{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "monologue/ja/012",
+      "ko": "충돌 직전{br}비상 시스템이{ctrl:FC00}{ctrl:FD00}탈출 포드를 방출했다.{br}BIOLOGIC 함선이 포드를 회수해{ctrl:FC00}{ctrl:FD00}본부로{br}이송했다.{ctrl:FC00}{ctrl:FC00}{ctrl:FD00}{ctrl:E132}이동 중 X가{br}내 몸에서 증식해{ctrl:FC00}{ctrl:FD00}파워 슈트 대부분을{br}오염시켰다.{ctrl:FC00}{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "monologue/ja/013",
+      "ko": "그때 파워 슈트의 유기 구성 요소가{ctrl:FC00}{ctrl:FD00}내 몸과 너무 깊이 일체화되어 있어,{ctrl:FC00}{ctrl:FD00}의식이 없는 상태에서는 슈트를{br}벗길 수 없다는 사실이 드러났다.{ctrl:FC00}{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "monologue/ja/014",
+      "ko": "슈트 대부분을 수술로{br}제거해야 했고,{ctrl:FC00}{ctrl:FD00}그 탓에 외형도{br}크게 달라졌다.{ctrl:FC00}{ctrl:FD00}신경계 깊이{br}침입한 X는{ctrl:FC00}{ctrl:FD00}제거할 수 없어 생존{br}가능성은 극히 낮았다.{ctrl:FC00}{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "monologue/ja/015",
+      "ko": "그때 누군가 치료법을 찾아냈다.{ctrl:FC00}{ctrl:FC00}{ctrl:FD00}메트로이드 세포로 X에{br}대항하는 백신을 만들자는 제안이었다.{ctrl:FC00}{ctrl:FD00}은하 연방은{br}SR388에서 {ctrl:FC00}{ctrl:FD00}마지막 베이비 메트로이드의{br}세포 배양 조직을 보존한 듯 하다.{ctrl:FC00}{ctrl:FD00}혈청은 즉시{br}만들어져 투여되었다.{ctrl:FC00}{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "monologue/ja/016",
+      "ko": "X 기생체는{br}즉시 그리고 완전히{ctrl:FC00}{ctrl:FD00}소멸했다.{ctrl:FC00}{ctrl:FD00}나 역시 한 생이 끝난 듯했지만...{br}살아남았고, 다시 태어났다.{ctrl:FC00}{ctrl:FD00}이전과는 다른 존재로.{ctrl:FC00}{ctrl:FD00}{ctrl:FC00}{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "monologue/ja/017",
+      "ko": "이 사실을 곱씹다 문득 깨달았다...{ctrl:FC00}{ctrl:FD00}나는 베이비 메트로이드에게{br}두 번이나 목숨을 빚졌다.{ctrl:FC00}{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    },
+    {
+      "entry_id": "monologue/ja/018",
+      "ko": "곧 B.S.L. 연구{br}기지에 도착한다.{ctrl:FC00}{ctrl:FD00}도킹을 준비해야 한다.{ctrl:FC00}{end}",
+      "status": "needs_review",
+      "notes": "공식 영어 기준 초벌 + 용어/UI 2차 검토; 일본어 의미·말투·줄바꿈 최종 검수 필요",
+      "flags": []
+    }
+  ]
+}

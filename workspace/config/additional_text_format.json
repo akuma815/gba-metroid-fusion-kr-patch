@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "format_id": "fusion_jp_additional_main_text",
+  "scope": "Metroid Fusion Japan AMTJ message, location, and monologue text",
+  "source_profile": "source_rom.json",
+  "addressing": {
+    "gba_rom_base": "0x08000000",
+    "pointer_width_bytes": 4,
+    "pointer_endian": "little"
+  },
+  "text": {
+    "unit_width_bytes": 2,
+    "unit_endian": "little",
+    "terminator_mask": "0xFF00",
+    "terminator_value": "0xFF00",
+    "terminator_width_units": 1
+  },
+  "languages": [
+    {"id": "ja", "name": "Japanese"},
+    {"id": "ja_hiragana", "name": "Japanese Hiragana"},
+    {"id": "en", "name": "English"},
+    {"id": "de", "name": "German"},
+    {"id": "fr", "name": "French"},
+    {"id": "it", "name": "Italian"},
+    {"id": "es", "name": "Spanish"}
+  ],
+  "populations": [
+    {
+      "id": "message",
+      "name": "Status and system messages",
+      "meta_table_offset": "0x7EF490",
+      "entries_per_language": 48
+    },
+    {
+      "id": "location",
+      "name": "Area and location names",
+      "meta_table_offset": "0x7EF474",
+      "entries_per_language": 26
+    },
+    {
+      "id": "monologue",
+      "name": "Intro and elevator monologues",
+      "meta_table_offset": "0x7EEC40",
+      "entries_per_language": 19
+    }
+  ],
+  "token_policies": [
+    {"match": "0xFE00", "name": "br", "policy": "movable-layout", "status": "confirmed"},
+    {"match": "0xFF00", "name": "end", "policy": "preserve", "status": "confirmed"},
+    {"match": "0x0000-0x7FFF", "name": "glyph", "policy": "translatable", "status": "consumer-confirmed"},
+    {"match": "high-byte 0x80-0xFD except 0xFE", "name": "ctrl", "policy": "forbidden", "status": "boundary-confirmed-semantics-unresolved"}
+  ]
+}

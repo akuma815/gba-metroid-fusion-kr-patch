@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "format_id": "fusion_jp_file_select_text",
+  "scope": "Metroid Fusion Japan AMTJ file-select rendered u16 text",
+  "source_profile": "source_rom.json",
+  "addressing": {
+    "gba_rom_base": "0x08000000",
+    "pointer_width_bytes": 4,
+    "pointer_endian": "little"
+  },
+  "text": {
+    "unit_width_bytes": 2,
+    "unit_endian": "little",
+    "terminator_mask": "0xFF00",
+    "terminator_value": "0xFF00"
+  },
+  "primary_meta_table_offset": "0x7F13FC",
+  "languages": [
+    {"id": "ja", "name": "Japanese", "table_offset": "0x7F1118", "entry_count": 29},
+    {"id": "ja_hiragana", "name": "Japanese Hiragana", "table_offset": "0x7F118C", "entry_count": 29},
+    {"id": "en", "name": "English", "table_offset": "0x7F1200", "entry_count": 25},
+    {"id": "de", "name": "German", "table_offset": "0x7F1264", "entry_count": 25},
+    {"id": "fr", "name": "French", "table_offset": "0x7F12C8", "entry_count": 25},
+    {"id": "it", "name": "Italian", "table_offset": "0x7F132C", "entry_count": 25},
+    {"id": "es", "name": "Spanish", "table_offset": "0x7F1390", "entry_count": 25}
+  ],
+  "shared": {
+    "id": "file_select_shared",
+    "meta_table_offset": "0x7F1418",
+    "table_offset": "0x7F13F4",
+    "entry_count": 2,
+    "meta_pointer_count": 7
+  },
+  "alias_policy": "internal suffix pointers are distinct addressable entries and must be preserved"
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "platform": "Game Boy Advance",
+  "region": "Japan",
+  "file": "original/Metroid Fusion (Japan).gba",
+  "size_bytes": 8388608,
+  "sha256": "11C3ED10FA89D2644EA4D8E97380AA520A268340934B91883602CEA668737E48",
+  "gba_header": {
+    "title": "METROID4JPN",
+    "game_code": "AMTJ",
+    "maker_code": "01",
+    "software_version": 0,
+    "complement_check": "0x94"
+  }
+}

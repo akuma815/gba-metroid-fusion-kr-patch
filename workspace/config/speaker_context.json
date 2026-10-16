@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "navigation": {
+    "conversation_index_range": [0, 112],
+    "conversation_default": {
+      "speaker": "ADAM 컴퓨터(추정)",
+      "basis": "내비게이션 대화 역할과 공식 영어 정렬에 따른 추정; 런타임 화자 제어 의미는 미확정"
+    },
+    "mission_log_index_range": [113, 224],
+    "mission_log": {
+      "speaker": "시스템/임무 로그",
+      "basis": "표시 기능과 공식 영어 내용으로 확인"
+    },
+    "speaker_switch_controls": {
+      "E200": "ADAM 컴퓨터(추정)",
+      "E201": "사무스(추정)",
+      "E202": "연방 본부(추정)"
+    },
+    "switch_basis": "E200~E202 전환과 공식 영어 대화 순서를 대조한 추정; 런타임 제어 의미 확인 전에는 번역 적격 근거로 단독 사용 금지"
+  },
+  "fixed_groups": {
+    "message": {
+      "speaker": "시스템",
+      "basis": "시스템 메시지 모집단"
+    },
+    "location": {
+      "speaker": "시스템/지역명",
+      "basis": "지역명 표시 모집단"
+    },
+    "monologue": {
+      "speaker": "사무스",
+      "basis": "사무스 독백 모집단"
+    },
+    "file_select": {
+      "speaker": "시스템/UI",
+      "basis": "파일 선택 UI 모집단"
+    },
+    "file_select_shared": {
+      "speaker": "시스템/UI",
+      "basis": "전 언어 공용 파일 선택 UI 모집단"
+    }
+  }
+}

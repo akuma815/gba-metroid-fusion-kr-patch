@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "format_id": "fusion_jp_navigation_text",
+  "scope": "Metroid Fusion Japan AMTJ navigation conversation text",
+  "source_profile": "source_rom.json",
+  "addressing": {
+    "meta_table_offset": "0x7EE7A0",
+    "gba_rom_base": "0x08000000",
+    "pointer_width_bytes": 4,
+    "pointer_endian": "little"
+  },
+  "text": {
+    "unit_width_bytes": 2,
+    "unit_endian": "little",
+    "terminator_mask": "0xFF00",
+    "terminator_value": "0xFF00",
+    "terminator_width_units": 1
+  },
+  "entries_per_language": 225,
+  "languages": [
+    {"id": "ja", "name": "Japanese", "table_offset": "0x7EF4AC"},
+    {"id": "ja_hiragana", "name": "Japanese Hiragana", "table_offset": "0x7EF830"},
+    {"id": "en", "name": "English", "table_offset": "0x7EFBB4"},
+    {"id": "de", "name": "German", "table_offset": "0x7EFF38"},
+    {"id": "fr", "name": "French", "table_offset": "0x7F02BC"},
+    {"id": "it", "name": "Italian", "table_offset": "0x7F0640"},
+    {"id": "es", "name": "Spanish", "table_offset": "0x7F09C4"}
+  ],
+  "token_policies": [
+    {"match": "0xFE00", "name": "br", "policy": "movable-layout", "status": "confirmed"},
+    {"match": "0xFF00", "name": "end", "policy": "preserve", "status": "confirmed"},
+    {"match": "0x0000-0x7FFF", "name": "glyph", "policy": "translatable", "status": "consumer-confirmed"},
+    {"match": "high-byte 0x80-0xFD except 0xFE", "name": "ctrl", "policy": "forbidden", "status": "boundary-confirmed-semantics-unresolved"}
+  ]
+}
