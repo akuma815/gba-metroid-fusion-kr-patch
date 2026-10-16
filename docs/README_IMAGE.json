@@ -1,0 +1,14 @@
+{
+  "src": "assets/screenshots/gba-metroid-fusion-kr-patch.png",
+  "caption": "한글 타이틀 · 작업 당시 캡처",
+  "kind": "runtime",
+  "width": 240,
+  "height": 160,
+  "source": "Games/Metroid Fusion/qa/screenshots/v24_korean_title_vramsafe/03450_f.png",
+  "sourceSHA256": "d5a09b21e12504e2acb392167250bc0c9f0ce2a916792c8f6ad3c3a13d18f404",
+  "assetSHA256": "d5a09b21e12504e2acb392167250bc0c9f0ce2a916792c8f6ad3c3a13d18f404",
+  "pixelSHA256": "48ab7d421fc4aaec19b5d5cb60d84fd9de4a36f0d46179c713220f564e6de6ac",
+  "sourceNote": "v24_korean_title_vramsafe Mesen 캡처",
+  "readmeAsset": "img/preview.png",
+  "displayNote": "v24_korean_title_vramsafe Mesen 캡처 작업 당시 화면이며 최종 배포본의 화면 검증을 의미하지 않습니다."
+}
