@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "finalSHA256": "9f81749177e34ba1f62ae29d5dd13d57ab274850c70e230604325c626aaad2be",
+  "originalUnchanged": true,
+  "sourceROMRequired": true,
+  "externalFontSheets": [
+    "Galmuri11-Condensed_9x12.png",
+    "Galmuri7_8x8.png"
+  ],
+  "publicReleaseRequired": false,
+  "privateBackupRequired": false,
+  "runtime": "not newly performed",
+  "sourceSHA256": "11c3ed10fa89d2644ea4d8e97380aa520a268340934b91883602cea668737e48",
+  "sourceMessages": 2411,
+  "translationEntries": 349,
+  "pointerFields": 696,
+  "fontTileWrites": 2184,
+  "staticTestsPassed": 51,
+  "realDownloadedApplyPS1": "PASS",
+  "releaseZIP_SHA256": "c9b1f69f9072340415cba5f5350757412f4adc9b9b8b7fd3fead4a5459d09450",
+  "independentFreshRemoteCloneBuild": "pending",
+  "gameFolderDeleted": false
+}

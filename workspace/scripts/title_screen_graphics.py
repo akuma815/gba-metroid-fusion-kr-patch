@@ -14,6 +14,8 @@ from ui_graphics_audit import decode_tile, decompress_gba_lz77, gba_color
 
 
 REFERENCE = PROJECT / "workspace" / "graphics" / "source" / "metroid_fusion_korean_title_reference.png"
+APPROVED_REFERENCE = PROJECT / "workspace/graphics/source/approved_title_logo.png"
+APPROVED_REFERENCE_SHA256 = "85FA144588103FBCDF249A2F03B01A39CBD2E44D8DFE69D0CFD41C4D2CF2E2D2"
 REFERENCE_SHA256 = "D85BF61FB6A29DB0E8EEC99F81854CC0875532585F165BEFF65D3D55861EA208"
 PREVIEW_DIR = PROJECT / "workspace" / "analysis" / "previews"
 
@@ -77,6 +79,16 @@ def _render_background(rom: bytes) -> Image.Image:
 
 
 def _reference_and_mask(background: Image.Image) -> tuple[Image.Image, Image.Image]:
+    # Keep only the approved logo input in public source; reconstruct the
+    # background from the separately supplied original ROM.
+    approved = APPROVED_REFERENCE
+    if approved.is_file():
+        if sha256(approved.read_bytes()) != APPROVED_REFERENCE_SHA256:
+            raise TitleGraphicsError("approved Korean title logo differs")
+        image = Image.open(approved).convert("RGBA")
+        if image.size != (240, 160):
+            raise TitleGraphicsError("approved Korean title logo dimensions differ")
+        return image.convert("RGB"), image.getchannel("A")
     if not REFERENCE.is_file() or sha256(REFERENCE.read_bytes()) != REFERENCE_SHA256:
         raise TitleGraphicsError("Korean title reference is missing or modified")
     reference = Image.open(REFERENCE).convert("RGB").resize((240, 160), Image.Resampling.LANCZOS)
@@ -369,8 +381,8 @@ def verify_image(image: bytes, plan: dict) -> None:
 
 def report(plan: dict) -> dict:
     return {
-        "reference": str(REFERENCE.relative_to(PROJECT)).replace("\\", "/"),
-        "reference_sha256": REFERENCE_SHA256,
+        "reference": str((APPROVED_REFERENCE if APPROVED_REFERENCE.is_file() else REFERENCE).relative_to(PROJECT)).replace("\\", "/"),
+        "reference_sha256": APPROVED_REFERENCE_SHA256 if APPROVED_REFERENCE.is_file() else REFERENCE_SHA256,
         "unique_tiles": plan["unique_tiles"],
         "opaque_pixels": plan["opaque_pixels"],
         "palette_offset": f"0x{LOGO_PALETTE_OFFSET:06X}",

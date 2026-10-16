@@ -32,3 +32,9 @@ __pycache__/
 *.utoc
 *.uasset
 *.uexp
+
+# Generated directly from the separately supplied original ROM
+workspace/analysis/
+workspace/text/source/navigation_text.json
+workspace/text/source/additional_text.json
+workspace/text/source/file_select_text.json

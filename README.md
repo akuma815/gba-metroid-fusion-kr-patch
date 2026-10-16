@@ -37,3 +37,8 @@
 ## 소스 및 작업 기록
 
 [공개 소스 구성과 빌드 전제](docs/SOURCE_GUIDE.md) · [상세 패치 안내](docs/PATCH_GUIDE.txt)
+
+
+[최종판 복원·소스 재빌드](docs/rebuild/README.md): 공개 소스·지원 원본·외부 글꼴 시트 2개로 v1.0 재현을 검증했습니다.
+
+[최신 작업 인계](docs/HANDOFF_2026-10-16.md)

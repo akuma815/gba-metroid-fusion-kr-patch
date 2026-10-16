@@ -1,11 +1,12 @@
 """Galmuri 글리프 원천을 Fusion 16x16 글리프 격자로 만든다."""
 from functools import lru_cache
 from pathlib import Path
+import os
 
 from PIL import Image, ImageFont
 
 PROJECT = Path(__file__).resolve().parents[2]
-FONT_DIR = PROJECT.parents[1] / "Font"
+FONT_DIR = Path(os.environ.get("MF_FONT_DIR", str(PROJECT.parents[1] / "Font")))
 
 HANGUL_FIRST = 0xAC00
 HANGUL_LAST = 0xD7A3

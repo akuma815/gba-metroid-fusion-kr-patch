@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import struct
 from pathlib import Path
 
@@ -454,10 +455,10 @@ def build(
             "font_payload_sha256": sha256_path(kc.OUTPUT_PATH),
             "text_centering_report": str(centering.REPORT_PATH.relative_to(PROJECT)).replace("\\", "/"),
             "text_centering_report_sha256": sha256_path(centering.REPORT_PATH),
-            "small_ui_font": str(uig.SMALL_FONT.relative_to(PROJECT.parents[1])).replace("\\", "/"),
+            "small_ui_font": os.path.relpath(uig.SMALL_FONT, PROJECT).replace("\\", "/"),
             "small_ui_font_sha256": uig.SMALL_FONT_SHA256,
-            "title_reference": str(tsg.REFERENCE.relative_to(PROJECT)).replace("\\", "/"),
-            "title_reference_sha256": tsg.REFERENCE_SHA256,
+            "title_reference": str((tsg.APPROVED_REFERENCE if tsg.APPROVED_REFERENCE.is_file() else tsg.REFERENCE).relative_to(PROJECT)).replace("\\", "/"),
+            "title_reference_sha256": tsg.APPROVED_REFERENCE_SHA256 if tsg.APPROVED_REFERENCE.is_file() else tsg.REFERENCE_SHA256,
             "game_over_font": game_over_plan["font"],
         },
         "output": {

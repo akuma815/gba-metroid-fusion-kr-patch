@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import unittest
 from pathlib import Path
 
@@ -14,7 +15,8 @@ PROFILE = PROJECT / "workspace" / "config" / "small_font_profile.json"
 class SmallFontProfileTests(unittest.TestCase):
     def test_galmuri7_bitmap_atlas_matches_profile(self):
         profile = json.loads(PROFILE.read_text(encoding="utf-8"))
-        source = (PROJECT / profile["font"]["file"]).resolve()
+        source = (Path(os.environ["MF_FONT_DIR"]) / Path(profile["font"]["file"]).name
+                  if "MF_FONT_DIR" in os.environ else (PROJECT / profile["font"]["file"]).resolve())
         self.assertEqual(
             hashlib.sha256(source.read_bytes()).hexdigest().upper(),
             profile["font"]["sha256"],

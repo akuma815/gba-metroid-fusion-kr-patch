@@ -2,10 +2,11 @@
 from __future__ import annotations
 
 import hashlib
+import os
 from pathlib import Path
 
 PROJECT = Path(__file__).resolve().parents[2]
-SOURCE_ROM = PROJECT / "original" / "Metroid Fusion (Japan).gba"
+SOURCE_ROM = Path(os.environ.get("MF_SOURCE_ROM", str(PROJECT / "original" / "Metroid Fusion (Japan).gba")))
 SOURCE_SHA256 = "11c3ed10fa89d2644ea4d8e97380aa520a268340934b91883602cea668737e48"
 ROM_SIZE = 8388608
 

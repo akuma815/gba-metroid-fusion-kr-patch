@@ -18,7 +18,9 @@ class TitleScreenGraphicsTests(unittest.TestCase):
         cls.plan = title.build_plan(cls.rom, [(0x700000, 0x780000)], [])
 
     def test_reference_identity_and_native_dimensions(self):
-        self.assertEqual(title.sha256(title.REFERENCE.read_bytes()), title.REFERENCE_SHA256)
+        reference = title.APPROVED_REFERENCE if title.APPROVED_REFERENCE.is_file() else title.REFERENCE
+        digest = title.APPROVED_REFERENCE_SHA256 if title.APPROVED_REFERENCE.is_file() else title.REFERENCE_SHA256
+        self.assertEqual(title.sha256(reference.read_bytes()), digest)
         self.assertEqual(self.plan["preview"]["reference"].size, (240, 160))
 
     def test_title_layer_fits_original_bg1_contract(self):

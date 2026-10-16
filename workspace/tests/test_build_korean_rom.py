@@ -309,7 +309,9 @@ class KoreanRomBuildTests(unittest.TestCase):
 
     def test_korean_title_reference_is_rebuilt_as_two_bg_assets(self):
         title = self.report["writes"]["title_graphics"]
-        self.assertEqual(title["reference_sha256"], build.tsg.REFERENCE_SHA256)
+        expected = (build.tsg.APPROVED_REFERENCE_SHA256 if build.tsg.APPROVED_REFERENCE.is_file()
+                    else build.tsg.REFERENCE_SHA256)
+        self.assertEqual(title["reference_sha256"], expected)
         self.assertLessEqual(title["unique_tiles"], 896)
         self.assertGreater(title["opaque_pixels"], 10000)
         self.assertEqual(

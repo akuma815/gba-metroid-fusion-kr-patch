@@ -13,7 +13,8 @@ from rombuild import PROJECT
 from ui_graphics_audit import decompress_gba_lz77
 
 GBA_ROM_BASE = 0x08000000
-SMALL_FONT = PROJECT.parents[1] / "Font" / "Galmuri7_8x8.png"
+import os
+SMALL_FONT = Path(os.environ.get("MF_FONT_DIR", str(PROJECT.parents[1] / "Font"))) / "Galmuri7_8x8.png"
 SMALL_FONT_SHA256 = "A2BE473E22A62942164C95DB60F3F5AA88A99F76B525994D194E9F5F9DF387EA"
 
 ASSETS = (

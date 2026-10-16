@@ -1,0 +1,20 @@
+{
+  "sourceSHA256": "11c3ed10fa89d2644ea4d8e97380aa520a268340934b91883602cea668737e48",
+  "finalSHA256": "9f81749177e34ba1f62ae29d5dd13d57ab274850c70e230604325c626aaad2be",
+  "fontSheets": {
+    "Galmuri11-Condensed_9x12.png": "07a9617723aa4edbfb18442db86419c3f2b48e4f7c6e2e33229305adca582aa1",
+    "Galmuri7_8x8.png": "a2be473e22a62942164c95db60f3f5aa88a99f76b525994d194e9f5f9df387ea"
+  },
+  "approvedTitleLogo": {
+    "path": "workspace/graphics/source/approved_title_logo.png",
+    "sha256": "85fa144588103fbcdf249a2f03b01a39cbd2e44d8dfe69d0cfd41c4d2cf2e2d2",
+    "sourceReferenceSHA256": "d85bf61fb6a29db0e8eec99f81854cc0875532585f165beff65d3d55861ea208",
+    "policy": "Original approved reference resized with the original mask; only masked RGB pixels retained with alpha. All encoded ROM bytes match v1.0."
+  },
+  "finalTranslationCSV": {
+    "path": "workspace/text/review/metroid_fusion_translation_ko_english_controlcodes_fixed.csv",
+    "sha256": "1a688d4874b24713c4921c05404cd85b383b3b6371f11eba1fcd3a245138f1cb"
+  },
+  "publicReleaseRequiredForBuild": false,
+  "privateBackupRequired": false
+}
