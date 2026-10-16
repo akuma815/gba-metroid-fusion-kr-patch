@@ -18,6 +18,8 @@
   "staticTestsPassed": 51,
   "realDownloadedApplyPS1": "PASS",
   "releaseZIP_SHA256": "c9b1f69f9072340415cba5f5350757412f4adc9b9b8b7fd3fead4a5459d09450",
-  "independentFreshRemoteCloneBuild": "pending",
-  "gameFolderDeleted": false
+  "independentFreshRemoteCloneBuild": "PASS",
+  "gameFolderDeleted": false,
+  "buildCommit": "8c37ac9c75e8e34d0ce7982219728231d11f3dc4",
+  "readyForGameFolderDeletion": true
 }
